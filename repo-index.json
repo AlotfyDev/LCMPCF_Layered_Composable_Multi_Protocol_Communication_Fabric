@@ -1,0 +1,1528 @@
+{
+  "repo": "AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric",
+  "branch": "main",
+  "last_updated": "2026-05-29T10:38:24Z",
+  "file_count": 152,
+  "files": [
+    {
+      "path": ".docs/ARCHITECTURE.md",
+      "filename": "ARCHITECTURE.md",
+      "extension": "md",
+      "size_bytes": 12177,
+      "top_level_dir": ".docs",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/ARCHITECTURE.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/ARCHITECTURE.md"
+    },
+    {
+      "path": ".docs/cloudflare_osi_model_concept.md",
+      "filename": "cloudflare_osi_model_concept.md",
+      "extension": "md",
+      "size_bytes": 9876,
+      "top_level_dir": ".docs",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/cloudflare_osi_model_concept.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/cloudflare_osi_model_concept.md"
+    },
+    {
+      "path": ".docs/osi_layer_components_matrix.csv",
+      "filename": "osi_layer_components_matrix.csv",
+      "extension": "csv",
+      "size_bytes": 33365,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/osi_layer_components_matrix.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/osi_layer_components_matrix.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/devops_buggy_components.csv",
+      "filename": "devops_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 506,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/devops_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/devops_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/gateway_buggy_components.csv",
+      "filename": "gateway_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 2096,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/gateway_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/gateway_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/network_buggy_components.csv",
+      "filename": "network_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 4036,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/network_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/network_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/observability_buggy_components.csv",
+      "filename": "observability_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 2394,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/observability_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/observability_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/presentation_buggy_components.csv",
+      "filename": "presentation_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 9430,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/presentation_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/presentation_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/protocols_buggy_components.csv",
+      "filename": "protocols_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 6300,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/protocols_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/protocols_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/security_buggy_components.csv",
+      "filename": "security_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 654,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/security_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/security_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/session_buggy_components.csv",
+      "filename": "session_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 2939,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/session_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/session_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/testing_buggy_components.csv",
+      "filename": "testing_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 4439,
+      "top_level_dir": ".docs",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/testing_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/testing_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/transport_buggy_components.csv",
+      "filename": "transport_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 4575,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/transport_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/transport_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/buggy_components/wiring_buggy_components.csv",
+      "filename": "wiring_buggy_components.csv",
+      "extension": "csv",
+      "size_bytes": 2990,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/buggy_components/wiring_buggy_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/buggy_components/wiring_buggy_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/devops.csv",
+      "filename": "devops.csv",
+      "extension": "csv",
+      "size_bytes": 6047,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/devops.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/devops.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/gateway_sdk.csv",
+      "filename": "gateway_sdk.csv",
+      "extension": "csv",
+      "size_bytes": 7684,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/gateway_sdk.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/gateway_sdk.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/network_L3.csv",
+      "filename": "network_L3.csv",
+      "extension": "csv",
+      "size_bytes": 8514,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/network_L3.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/network_L3.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/observability.csv",
+      "filename": "observability.csv",
+      "extension": "csv",
+      "size_bytes": 7809,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/observability.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/observability.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/presentation_L6.csv",
+      "filename": "presentation_L6.csv",
+      "extension": "csv",
+      "size_bytes": 17717,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/presentation_L6.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/presentation_L6.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/protocols_L7.csv",
+      "filename": "protocols_L7.csv",
+      "extension": "csv",
+      "size_bytes": 10091,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/protocols_L7.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/protocols_L7.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/security.csv",
+      "filename": "security.csv",
+      "extension": "csv",
+      "size_bytes": 8993,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/security.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/security.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/session_L5.csv",
+      "filename": "session_L5.csv",
+      "extension": "csv",
+      "size_bytes": 15567,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/session_L5.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/session_L5.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/testing.csv",
+      "filename": "testing.csv",
+      "extension": "csv",
+      "size_bytes": 7078,
+      "top_level_dir": ".docs",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/testing.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/testing.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/transport_L4.csv",
+      "filename": "transport_L4.csv",
+      "extension": "csv",
+      "size_bytes": 13340,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/transport_L4.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/transport_L4.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/domain_gaps/wiring_di.csv",
+      "filename": "wiring_di.csv",
+      "extension": "csv",
+      "size_bytes": 8731,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/domain_gaps/wiring_di.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/domain_gaps/wiring_di.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/devops_missing_components.csv",
+      "filename": "devops_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 2173,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/devops_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/devops_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/gateway_missing_components.csv",
+      "filename": "gateway_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 2800,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/gateway_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/gateway_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/network_missing_components.csv",
+      "filename": "network_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 995,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/network_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/network_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/observability_missing_components.csv",
+      "filename": "observability_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 2000,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/observability_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/observability_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/presentation_missing_components.csv",
+      "filename": "presentation_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 3546,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/presentation_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/presentation_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/protocols_missing_components.csv",
+      "filename": "protocols_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 1342,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/protocols_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/protocols_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/security_missing_components.csv",
+      "filename": "security_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 3348,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/security_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/security_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/session_missing_components.csv",
+      "filename": "session_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 4323,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/session_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/session_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/testing_missing_components.csv",
+      "filename": "testing_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 2998,
+      "top_level_dir": ".docs",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/testing_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/testing_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/transport_missing_components.csv",
+      "filename": "transport_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 4260,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/transport_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/transport_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/missing_components/wiring_missing_components.csv",
+      "filename": "wiring_missing_components.csv",
+      "extension": "csv",
+      "size_bytes": 2490,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/missing_components/wiring_missing_components.csv",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/missing_components/wiring_missing_components.csv"
+    },
+    {
+      "path": ".docs/roadmap_to_full_production_ready/README.md",
+      "filename": "README.md",
+      "extension": "md",
+      "size_bytes": 1790,
+      "top_level_dir": ".docs",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/roadmap_to_full_production_ready/README.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/roadmap_to_full_production_ready/README.md"
+    },
+    {
+      "path": ".docs/usage_integration_examples/base_actor_communication.py",
+      "filename": "base_actor_communication.py",
+      "extension": "py",
+      "size_bytes": 5483,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/usage_integration_examples/base_actor_communication.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/usage_integration_examples/base_actor_communication.py"
+    },
+    {
+      "path": ".docs/usage_integration_examples/both_modes_comparison.md",
+      "filename": "both_modes_comparison.md",
+      "extension": "md",
+      "size_bytes": 1848,
+      "top_level_dir": ".docs",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/usage_integration_examples/both_modes_comparison.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/usage_integration_examples/both_modes_comparison.md"
+    },
+    {
+      "path": ".docs/usage_integration_examples/embedded_mode/main.py",
+      "filename": "main.py",
+      "extension": "py",
+      "size_bytes": 1564,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/usage_integration_examples/embedded_mode/main.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/usage_integration_examples/embedded_mode/main.py"
+    },
+    {
+      "path": ".docs/usage_integration_examples/gateway_mode/actor_service/main.py",
+      "filename": "main.py",
+      "extension": "py",
+      "size_bytes": 1559,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/usage_integration_examples/gateway_mode/actor_service/main.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/usage_integration_examples/gateway_mode/actor_service/main.py"
+    },
+    {
+      "path": ".docs/usage_integration_examples/gateway_mode/remote_adapter.py",
+      "filename": "remote_adapter.py",
+      "extension": "py",
+      "size_bytes": 3049,
+      "top_level_dir": ".docs",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/usage_integration_examples/gateway_mode/remote_adapter.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/usage_integration_examples/gateway_mode/remote_adapter.py"
+    },
+    {
+      "path": ".docs/usage_integration_examples/tests/conftest.py",
+      "filename": "conftest.py",
+      "extension": "py",
+      "size_bytes": 4253,
+      "top_level_dir": ".docs",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/usage_integration_examples/tests/conftest.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/usage_integration_examples/tests/conftest.py"
+    },
+    {
+      "path": ".docs/usage_integration_examples/tests/NOTES.md",
+      "filename": "NOTES.md",
+      "extension": "md",
+      "size_bytes": 1827,
+      "top_level_dir": ".docs",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/usage_integration_examples/tests/NOTES.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/usage_integration_examples/tests/NOTES.md"
+    },
+    {
+      "path": ".docs/usage_integration_examples/tests/test_actor_isolation.py",
+      "filename": "test_actor_isolation.py",
+      "extension": "py",
+      "size_bytes": 9656,
+      "top_level_dir": ".docs",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/usage_integration_examples/tests/test_actor_isolation.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/usage_integration_examples/tests/test_actor_isolation.py"
+    },
+    {
+      "path": ".docs/usage_integration_examples/tests/test_fabric_integration.py",
+      "filename": "test_fabric_integration.py",
+      "extension": "py",
+      "size_bytes": 5003,
+      "top_level_dir": ".docs",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.docs/usage_integration_examples/tests/test_fabric_integration.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.docs/usage_integration_examples/tests/test_fabric_integration.py"
+    },
+    {
+      "path": ".github/scripts/generate_repo_index.py",
+      "filename": "generate_repo_index.py",
+      "extension": "py",
+      "size_bytes": 2628,
+      "top_level_dir": ".github",
+      "category": "repo_meta",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.github/scripts/generate_repo_index.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.github/scripts/generate_repo_index.py"
+    },
+    {
+      "path": ".github/workflows/ascc-header-audit.yml",
+      "filename": "ascc-header-audit.yml",
+      "extension": "yml",
+      "size_bytes": 1038,
+      "top_level_dir": ".github",
+      "category": "repo_meta",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.github/workflows/ascc-header-audit.yml",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.github/workflows/ascc-header-audit.yml"
+    },
+    {
+      "path": ".github/workflows/ascc-smoke-tests.yml",
+      "filename": "ascc-smoke-tests.yml",
+      "extension": "yml",
+      "size_bytes": 3688,
+      "top_level_dir": ".github",
+      "category": "repo_meta",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.github/workflows/ascc-smoke-tests.yml",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.github/workflows/ascc-smoke-tests.yml"
+    },
+    {
+      "path": ".github/workflows/create-repo-index.yml",
+      "filename": "create-repo-index.yml",
+      "extension": "yml",
+      "size_bytes": 1121,
+      "top_level_dir": ".github",
+      "category": "repo_meta",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.github/workflows/create-repo-index.yml",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.github/workflows/create-repo-index.yml"
+    },
+    {
+      "path": ".gitignore",
+      "filename": ".gitignore",
+      "extension": "",
+      "size_bytes": 270,
+      "top_level_dir": ".gitignore",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/.gitignore",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/.gitignore"
+    },
+    {
+      "path": "README.md",
+      "filename": "README.md",
+      "extension": "md",
+      "size_bytes": 8960,
+      "top_level_dir": "README.md",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/README.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/README.md"
+    },
+    {
+      "path": "src/application/.docs/upgrade_application_protocol_layer_roadmap.md",
+      "filename": "upgrade_application_protocol_layer_roadmap.md",
+      "extension": "md",
+      "size_bytes": 5896,
+      "top_level_dir": "src",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/application/.docs/upgrade_application_protocol_layer_roadmap.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/application/.docs/upgrade_application_protocol_layer_roadmap.md"
+    },
+    {
+      "path": "src/application/.obsolete/cli.py",
+      "filename": "cli.py",
+      "extension": "py",
+      "size_bytes": 7035,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/application/.obsolete/cli.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/application/.obsolete/cli.py"
+    },
+    {
+      "path": "src/application/.obsolete/grpc.py",
+      "filename": "grpc.py",
+      "extension": "py",
+      "size_bytes": 10105,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/application/.obsolete/grpc.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/application/.obsolete/grpc.py"
+    },
+    {
+      "path": "src/application/.obsolete/http.py",
+      "filename": "http.py",
+      "extension": "py",
+      "size_bytes": 8941,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/application/.obsolete/http.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/application/.obsolete/http.py"
+    },
+    {
+      "path": "src/application/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 130,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/application/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/application/__init__.py"
+    },
+    {
+      "path": "src/application/fastapi_router.py",
+      "filename": "fastapi_router.py",
+      "extension": "py",
+      "size_bytes": 14055,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/application/fastapi_router.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/application/fastapi_router.py"
+    },
+    {
+      "path": "src/Docker.md",
+      "filename": "Docker.md",
+      "extension": "md",
+      "size_bytes": 1439,
+      "top_level_dir": "src",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/Docker.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/Docker.md"
+    },
+    {
+      "path": "src/main.py",
+      "filename": "main.py",
+      "extension": "py",
+      "size_bytes": 1432,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/main.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/main.py"
+    },
+    {
+      "path": "src/network/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 1810,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/__init__.py"
+    },
+    {
+      "path": "src/network/adapters/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 444,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/adapters/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/adapters/__init__.py"
+    },
+    {
+      "path": "src/network/adapters/config_resolver.py",
+      "filename": "config_resolver.py",
+      "extension": "py",
+      "size_bytes": 2408,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/adapters/config_resolver.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/adapters/config_resolver.py"
+    },
+    {
+      "path": "src/network/adapters/dns_resolver.py",
+      "filename": "dns_resolver.py",
+      "extension": "py",
+      "size_bytes": 2383,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/adapters/dns_resolver.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/adapters/dns_resolver.py"
+    },
+    {
+      "path": "src/network/adapters/pool_adapter.py",
+      "filename": "pool_adapter.py",
+      "extension": "py",
+      "size_bytes": 3545,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/adapters/pool_adapter.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/adapters/pool_adapter.py"
+    },
+    {
+      "path": "src/network/adapters/router_adapter.py",
+      "filename": "router_adapter.py",
+      "extension": "py",
+      "size_bytes": 1936,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/adapters/router_adapter.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/adapters/router_adapter.py"
+    },
+    {
+      "path": "src/network/algorithms/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 285,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/algorithms/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/algorithms/__init__.py"
+    },
+    {
+      "path": "src/network/algorithms/least_active.py",
+      "filename": "least_active.py",
+      "extension": "py",
+      "size_bytes": 957,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/algorithms/least_active.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/algorithms/least_active.py"
+    },
+    {
+      "path": "src/network/algorithms/round_robin.py",
+      "filename": "round_robin.py",
+      "extension": "py",
+      "size_bytes": 1268,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/algorithms/round_robin.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/algorithms/round_robin.py"
+    },
+    {
+      "path": "src/network/protocol.py",
+      "filename": "protocol.py",
+      "extension": "py",
+      "size_bytes": 2816,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/protocol.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/protocol.py"
+    },
+    {
+      "path": "src/network/resilience/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 468,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/resilience/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/resilience/__init__.py"
+    },
+    {
+      "path": "src/network/resilience/circuit_breaker.py",
+      "filename": "circuit_breaker.py",
+      "extension": "py",
+      "size_bytes": 3619,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/network/resilience/circuit_breaker.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/network/resilience/circuit_breaker.py"
+    },
+    {
+      "path": "src/presentation/.docs/upgrade_roadmap.md",
+      "filename": "upgrade_roadmap.md",
+      "extension": "md",
+      "size_bytes": 4952,
+      "top_level_dir": "src",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/presentation/.docs/upgrade_roadmap.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/presentation/.docs/upgrade_roadmap.md"
+    },
+    {
+      "path": "src/presentation/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 1472,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/presentation/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/presentation/__init__.py"
+    },
+    {
+      "path": "src/presentation/codecs/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 655,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/presentation/codecs/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/presentation/codecs/__init__.py"
+    },
+    {
+      "path": "src/presentation/codecs/compression.py",
+      "filename": "compression.py",
+      "extension": "py",
+      "size_bytes": 3344,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/presentation/codecs/compression.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/presentation/codecs/compression.py"
+    },
+    {
+      "path": "src/presentation/codecs/json_serializer.py",
+      "filename": "json_serializer.py",
+      "extension": "py",
+      "size_bytes": 4364,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/presentation/codecs/json_serializer.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/presentation/codecs/json_serializer.py"
+    },
+    {
+      "path": "src/presentation/codecs/sse_stream_codec.py",
+      "filename": "sse_stream_codec.py",
+      "extension": "py",
+      "size_bytes": 4854,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/presentation/codecs/sse_stream_codec.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/presentation/codecs/sse_stream_codec.py"
+    },
+    {
+      "path": "src/presentation/pipeline.py",
+      "filename": "pipeline.py",
+      "extension": "py",
+      "size_bytes": 9208,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/presentation/pipeline.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/presentation/pipeline.py"
+    },
+    {
+      "path": "src/presentation/protocol.py",
+      "filename": "protocol.py",
+      "extension": "py",
+      "size_bytes": 4777,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/presentation/protocol.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/presentation/protocol.py"
+    },
+    {
+      "path": "src/presentation/request_types.py",
+      "filename": "request_types.py",
+      "extension": "py",
+      "size_bytes": 6011,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/presentation/request_types.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/presentation/request_types.py"
+    },
+    {
+      "path": "src/protocols/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 781,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/protocols/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/protocols/__init__.py"
+    },
+    {
+      "path": "src/protocols/cli_handler.py",
+      "filename": "cli_handler.py",
+      "extension": "py",
+      "size_bytes": 10871,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/protocols/cli_handler.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/protocols/cli_handler.py"
+    },
+    {
+      "path": "src/protocols/error_mapper.py",
+      "filename": "error_mapper.py",
+      "extension": "py",
+      "size_bytes": 6677,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/protocols/error_mapper.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/protocols/error_mapper.py"
+    },
+    {
+      "path": "src/protocols/graphql_handler.py",
+      "filename": "graphql_handler.py",
+      "extension": "py",
+      "size_bytes": 11743,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/protocols/graphql_handler.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/protocols/graphql_handler.py"
+    },
+    {
+      "path": "src/protocols/grpc_handler.py",
+      "filename": "grpc_handler.py",
+      "extension": "py",
+      "size_bytes": 13337,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/protocols/grpc_handler.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/protocols/grpc_handler.py"
+    },
+    {
+      "path": "src/protocols/http_handler.py",
+      "filename": "http_handler.py",
+      "extension": "py",
+      "size_bytes": 13043,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/protocols/http_handler.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/protocols/http_handler.py"
+    },
+    {
+      "path": "src/protocols/inprocess_handler.py",
+      "filename": "inprocess_handler.py",
+      "extension": "py",
+      "size_bytes": 8401,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/protocols/inprocess_handler.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/protocols/inprocess_handler.py"
+    },
+    {
+      "path": "src/protocols/local_ipc_handler.py",
+      "filename": "local_ipc_handler.py",
+      "extension": "py",
+      "size_bytes": 10805,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/protocols/local_ipc_handler.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/protocols/local_ipc_handler.py"
+    },
+    {
+      "path": "src/protocols/protocol.py",
+      "filename": "protocol.py",
+      "extension": "py",
+      "size_bytes": 1200,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/protocols/protocol.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/protocols/protocol.py"
+    },
+    {
+      "path": "src/protocols/webhook_handler.py",
+      "filename": "webhook_handler.py",
+      "extension": "py",
+      "size_bytes": 10692,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/protocols/webhook_handler.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/protocols/webhook_handler.py"
+    },
+    {
+      "path": "src/session/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 1454,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/__init__.py"
+    },
+    {
+      "path": "src/session/adapters/cli_session.py",
+      "filename": "cli_session.py",
+      "extension": "py",
+      "size_bytes": 4054,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/adapters/cli_session.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/adapters/cli_session.py"
+    },
+    {
+      "path": "src/session/adapters/inprocess_session.py",
+      "filename": "inprocess_session.py",
+      "extension": "py",
+      "size_bytes": 3497,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/adapters/inprocess_session.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/adapters/inprocess_session.py"
+    },
+    {
+      "path": "src/session/adapters/network_session.py",
+      "filename": "network_session.py",
+      "extension": "py",
+      "size_bytes": 4028,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/adapters/network_session.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/adapters/network_session.py"
+    },
+    {
+      "path": "src/session/conceptual_binding_reading_reference.md",
+      "filename": "conceptual_binding_reading_reference.md",
+      "extension": "md",
+      "size_bytes": 8755,
+      "top_level_dir": "src",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/conceptual_binding_reading_reference.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/conceptual_binding_reading_reference.md"
+    },
+    {
+      "path": "src/session/coordinator.py",
+      "filename": "coordinator.py",
+      "extension": "py",
+      "size_bytes": 6726,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/coordinator.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/coordinator.py"
+    },
+    {
+      "path": "src/session/factory.py",
+      "filename": "factory.py",
+      "extension": "py",
+      "size_bytes": 2032,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/factory.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/factory.py"
+    },
+    {
+      "path": "src/session/hooks/retry_hooks.py",
+      "filename": "retry_hooks.py",
+      "extension": "py",
+      "size_bytes": 4845,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/hooks/retry_hooks.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/hooks/retry_hooks.py"
+    },
+    {
+      "path": "src/session/ICheckpointSync.py",
+      "filename": "ICheckpointSync.py",
+      "extension": "py",
+      "size_bytes": 1994,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/ICheckpointSync.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/ICheckpointSync.py"
+    },
+    {
+      "path": "src/session/ISessionLifecycle.py",
+      "filename": "ISessionLifecycle.py",
+      "extension": "py",
+      "size_bytes": 1694,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/ISessionLifecycle.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/ISessionLifecycle.py"
+    },
+    {
+      "path": "src/session/protocol.py",
+      "filename": "protocol.py",
+      "extension": "py",
+      "size_bytes": 349,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/protocol.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/protocol.py"
+    },
+    {
+      "path": "src/session/session_dispatcher.py",
+      "filename": "session_dispatcher.py",
+      "extension": "py",
+      "size_bytes": 11808,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/session_dispatcher.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/session_dispatcher.py"
+    },
+    {
+      "path": "src/session/session_registry.py",
+      "filename": "session_registry.py",
+      "extension": "py",
+      "size_bytes": 10182,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/session/session_registry.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/session/session_registry.py"
+    },
+    {
+      "path": "src/transport/.obsoletes/inprocess_obsolete.py",
+      "filename": "inprocess_obsolete.py",
+      "extension": "py",
+      "size_bytes": 6892,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/.obsoletes/inprocess_obsolete.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/.obsoletes/inprocess_obsolete.py"
+    },
+    {
+      "path": "src/transport/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 775,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/__init__.py"
+    },
+    {
+      "path": "src/transport/_ws_framing.py",
+      "filename": "_ws_framing.py",
+      "extension": "py",
+      "size_bytes": 3532,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/_ws_framing.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/_ws_framing.py"
+    },
+    {
+      "path": "src/transport/_ws_keepalive.py",
+      "filename": "_ws_keepalive.py",
+      "extension": "py",
+      "size_bytes": 3296,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/_ws_keepalive.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/_ws_keepalive.py"
+    },
+    {
+      "path": "src/transport/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 5746,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/base.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/base.py"
+    },
+    {
+      "path": "src/transport/channel/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 488,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/channel/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/channel/__init__.py"
+    },
+    {
+      "path": "src/transport/channel/channel.py",
+      "filename": "channel.py",
+      "extension": "py",
+      "size_bytes": 5899,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/channel/channel.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/channel/channel.py"
+    },
+    {
+      "path": "src/transport/channel/protocol.py",
+      "filename": "protocol.py",
+      "extension": "py",
+      "size_bytes": 1963,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/channel/protocol.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/channel/protocol.py"
+    },
+    {
+      "path": "src/transport/channel/types.py",
+      "filename": "types.py",
+      "extension": "py",
+      "size_bytes": 1300,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/channel/types.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/channel/types.py"
+    },
+    {
+      "path": "src/transport/composite.py",
+      "filename": "composite.py",
+      "extension": "py",
+      "size_bytes": 21828,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/composite.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/composite.py"
+    },
+    {
+      "path": "src/transport/config/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 618,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/config/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/config/__init__.py"
+    },
+    {
+      "path": "src/transport/config/transport_config.py",
+      "filename": "transport_config.py",
+      "extension": "py",
+      "size_bytes": 6243,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/config/transport_config.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/config/transport_config.py"
+    },
+    {
+      "path": "src/transport/consumer_example.py",
+      "filename": "consumer_example.py",
+      "extension": "py",
+      "size_bytes": 2519,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/consumer_example.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/consumer_example.py"
+    },
+    {
+      "path": "src/transport/context/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 557,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/context/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/context/__init__.py"
+    },
+    {
+      "path": "src/transport/context/README.md",
+      "filename": "README.md",
+      "extension": "md",
+      "size_bytes": 5928,
+      "top_level_dir": "src",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/context/README.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/context/README.md"
+    },
+    {
+      "path": "src/transport/context/retry_hook.py",
+      "filename": "retry_hook.py",
+      "extension": "py",
+      "size_bytes": 2336,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/context/retry_hook.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/context/retry_hook.py"
+    },
+    {
+      "path": "src/transport/context/transport_context.py",
+      "filename": "transport_context.py",
+      "extension": "py",
+      "size_bytes": 2886,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/context/transport_context.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/context/transport_context.py"
+    },
+    {
+      "path": "src/transport/factory.py",
+      "filename": "factory.py",
+      "extension": "py",
+      "size_bytes": 18163,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/factory.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/factory.py"
+    },
+    {
+      "path": "src/transport/inprocess.py",
+      "filename": "inprocess.py",
+      "extension": "py",
+      "size_bytes": 7587,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/inprocess.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/inprocess.py"
+    },
+    {
+      "path": "src/transport/retry.py",
+      "filename": "retry.py",
+      "extension": "py",
+      "size_bytes": 6889,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/retry.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/retry.py"
+    },
+    {
+      "path": "src/transport/subprocess.py",
+      "filename": "subprocess.py",
+      "extension": "py",
+      "size_bytes": 8475,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/subprocess.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/subprocess.py"
+    },
+    {
+      "path": "src/transport/tcp.py",
+      "filename": "tcp.py",
+      "extension": "py",
+      "size_bytes": 8922,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/tcp.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/tcp.py"
+    },
+    {
+      "path": "src/transport/transport_example.yaml",
+      "filename": "transport_example.yaml",
+      "extension": "yaml",
+      "size_bytes": 2633,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/transport_example.yaml",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/transport_example.yaml"
+    },
+    {
+      "path": "src/transport/uds.py",
+      "filename": "uds.py",
+      "extension": "py",
+      "size_bytes": 9958,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/uds.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/uds.py"
+    },
+    {
+      "path": "src/transport/websocket.py",
+      "filename": "websocket.py",
+      "extension": "py",
+      "size_bytes": 10512,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/transport/websocket.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/transport/websocket.py"
+    },
+    {
+      "path": "src/wiring/adapters/fabric_health.py",
+      "filename": "fabric_health.py",
+      "extension": "py",
+      "size_bytes": 2777,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/adapters/fabric_health.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/adapters/fabric_health.py"
+    },
+    {
+      "path": "src/wiring/assembler.py",
+      "filename": "assembler.py",
+      "extension": "py",
+      "size_bytes": 15158,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/assembler.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/assembler.py"
+    },
+    {
+      "path": "src/wiring/config/loader.py",
+      "filename": "loader.py",
+      "extension": "py",
+      "size_bytes": 5106,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/config/loader.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/config/loader.py"
+    },
+    {
+      "path": "src/wiring/config/transport_example.yaml",
+      "filename": "transport_example.yaml",
+      "extension": "yaml",
+      "size_bytes": 1576,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/config/transport_example.yaml",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/config/transport_example.yaml"
+    },
+    {
+      "path": "src/wiring/contracts/communication_gateway.py",
+      "filename": "communication_gateway.py",
+      "extension": "py",
+      "size_bytes": 1592,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/contracts/communication_gateway.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/contracts/communication_gateway.py"
+    },
+    {
+      "path": "src/wiring/factories/network_provider.py",
+      "filename": "network_provider.py",
+      "extension": "py",
+      "size_bytes": 2541,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/factories/network_provider.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/factories/network_provider.py"
+    },
+    {
+      "path": "src/wiring/factories/presentation_provider.py",
+      "filename": "presentation_provider.py",
+      "extension": "py",
+      "size_bytes": 3127,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/factories/presentation_provider.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/factories/presentation_provider.py"
+    },
+    {
+      "path": "src/wiring/factories/protocol_provider.py",
+      "filename": "protocol_provider.py",
+      "extension": "py",
+      "size_bytes": 4885,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/factories/protocol_provider.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/factories/protocol_provider.py"
+    },
+    {
+      "path": "src/wiring/factories/session_provider.py",
+      "filename": "session_provider.py",
+      "extension": "py",
+      "size_bytes": 1684,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/factories/session_provider.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/factories/session_provider.py"
+    },
+    {
+      "path": "src/wiring/factories/transport_provider.py",
+      "filename": "transport_provider.py",
+      "extension": "py",
+      "size_bytes": 2415,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/factories/transport_provider.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/factories/transport_provider.py"
+    },
+    {
+      "path": "src/wiring/pipelines/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 615,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/pipelines/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/pipelines/__init__.py"
+    },
+    {
+      "path": "src/wiring/pipelines/base.py",
+      "filename": "base.py",
+      "extension": "py",
+      "size_bytes": 3224,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/pipelines/base.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/pipelines/base.py"
+    },
+    {
+      "path": "src/wiring/pipelines/inbound.py",
+      "filename": "inbound.py",
+      "extension": "py",
+      "size_bytes": 3976,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/pipelines/inbound.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/pipelines/inbound.py"
+    },
+    {
+      "path": "src/wiring/pipelines/outbound.py",
+      "filename": "outbound.py",
+      "extension": "py",
+      "size_bytes": 4416,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/pipelines/outbound.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/pipelines/outbound.py"
+    },
+    {
+      "path": "src/wiring/pipelines/README.md",
+      "filename": "README.md",
+      "extension": "md",
+      "size_bytes": 1795,
+      "top_level_dir": "src",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/pipelines/README.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/pipelines/README.md"
+    },
+    {
+      "path": "src/wiring/registry/__init__.py",
+      "filename": "__init__.py",
+      "extension": "py",
+      "size_bytes": 557,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/registry/__init__.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/registry/__init__.py"
+    },
+    {
+      "path": "src/wiring/registry/layer_registry.py",
+      "filename": "layer_registry.py",
+      "extension": "py",
+      "size_bytes": 4478,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/registry/layer_registry.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/registry/layer_registry.py"
+    },
+    {
+      "path": "src/wiring/registry/pipeline_registry.py",
+      "filename": "pipeline_registry.py",
+      "extension": "py",
+      "size_bytes": 4602,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/registry/pipeline_registry.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/registry/pipeline_registry.py"
+    },
+    {
+      "path": "src/wiring/registry/README.md",
+      "filename": "README.md",
+      "extension": "md",
+      "size_bytes": 2327,
+      "top_level_dir": "src",
+      "category": "documentation",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/registry/README.md",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/registry/README.md"
+    },
+    {
+      "path": "src/wiring/runner.py",
+      "filename": "runner.py",
+      "extension": "py",
+      "size_bytes": 3629,
+      "top_level_dir": "src",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/src/wiring/runner.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/src/wiring/runner.py"
+    },
+    {
+      "path": "tests/scripts/test_switch.sh",
+      "filename": "test_switch.sh",
+      "extension": "sh",
+      "size_bytes": 1253,
+      "top_level_dir": "tests",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/tests/scripts/test_switch.sh",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/tests/scripts/test_switch.sh"
+    },
+    {
+      "path": "tests/test_live_protocol_switch.py",
+      "filename": "test_live_protocol_switch.py",
+      "extension": "py",
+      "size_bytes": 3675,
+      "top_level_dir": "tests",
+      "category": "test",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/tests/test_live_protocol_switch.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/tests/test_live_protocol_switch.py"
+    },
+    {
+      "path": "utils/port.py",
+      "filename": "port.py",
+      "extension": "py",
+      "size_bytes": 2003,
+      "top_level_dir": "utils",
+      "category": "code_or_asset",
+      "raw_url": "https://raw.githubusercontent.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/main/utils/port.py",
+      "github_url": "https://github.com/AlotfyDev/LCMPCF_Layered_Composable_Multi_Protocol_Communication_Fabric/blob/main/utils/port.py"
+    }
+  ]
+}
