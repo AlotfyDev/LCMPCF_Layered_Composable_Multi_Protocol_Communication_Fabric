@@ -1,0 +1,41 @@
+name: ASCC Header Audit
+
+on:
+  push:
+    paths:
+      - 'include/assembler/bridge_orchestrator/**'
+      - 'tools/ascc_header_audit.py'
+      - '.github/workflows/ascc-header-audit.yml'
+  pull_request:
+    paths:
+      - 'include/assembler/bridge_orchestrator/**'
+      - 'tools/ascc_header_audit.py'
+      - '.github/workflows/ascc-header-audit.yml'
+  workflow_dispatch:
+
+jobs:
+  audit:
+    name: Audit ASCC headers
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run ASCC header audit
+        run: |
+          python tools/ascc_header_audit.py \
+            --root include/assembler/bridge_orchestrator \
+            --out audit/ascc_header_audit
+
+      - name: Upload ASCC header audit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ascc-header-audit
+          path: audit/ascc_header_audit
+          if-no-files-found: error

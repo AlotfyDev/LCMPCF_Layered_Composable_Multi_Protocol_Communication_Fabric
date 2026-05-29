@@ -1,0 +1,109 @@
+name: ASCC Smoke Tests
+
+on:
+  push:
+    paths:
+      - 'include/assembler/bridge_orchestrator/**'
+      - '.github/workflows/ascc-smoke-tests.yml'
+  pull_request:
+    paths:
+      - 'include/assembler/bridge_orchestrator/**'
+      - '.github/workflows/ascc-smoke-tests.yml'
+  workflow_dispatch:
+    inputs:
+      test_glob:
+        description: 'Smoke-test source glob relative to repository root'
+        required: false
+        default: 'include/assembler/bridge_orchestrator/tests/smoke-tests/*.cpp'
+      continue_on_failure:
+        description: 'Compile/run all tests and fail at the end if any failed'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+jobs:
+  compile-and-run:
+    name: Compile and run ASCC smoke tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install compiler
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y g++
+
+      - name: Prepare ASCC include-root compatibility alias
+        run: |
+          set -euo pipefail
+          mkdir -p include/assembler
+          if [ ! -e include/assembler/communication_context ]; then
+            ln -s bridge_orchestrator include/assembler/communication_context
+          fi
+          ls -la include/assembler
+
+      - name: Compile and run smoke tests
+        shell: bash
+        run: |
+          set -uo pipefail
+          mkdir -p build/ascc_smoke_tests logs/ascc_smoke_tests
+          : > logs/ascc_smoke_tests/summary.txt
+          : > logs/ascc_smoke_tests/failures.txt
+
+          test_glob="${{ github.event.inputs.test_glob || 'include/assembler/bridge_orchestrator/tests/smoke-tests/*.cpp' }}"
+          continue_on_failure="${{ github.event.inputs.continue_on_failure || 'true' }}"
+
+          mapfile -t tests < <(find $(dirname "$test_glob") -maxdepth 1 -name "$(basename "$test_glob")" | sort)
+
+          if [ "${#tests[@]}" -eq 0 ]; then
+            echo "No ASCC smoke test sources found for glob: $test_glob" | tee -a logs/ascc_smoke_tests/summary.txt
+            exit 1
+          fi
+
+          failed=0
+
+          for src in "${tests[@]}"; do
+            name="$(basename "$src" .cpp)"
+            exe="build/ascc_smoke_tests/$name"
+            log="logs/ascc_smoke_tests/$name.log"
+
+            echo "==> Compiling $src" | tee -a logs/ascc_smoke_tests/summary.txt
+            if ! g++ -std=c++17 -I include "$src" -o "$exe" > "$log" 2>&1; then
+              echo "COMPILE_FAIL $name" | tee -a logs/ascc_smoke_tests/summary.txt logs/ascc_smoke_tests/failures.txt
+              failed=1
+              if [ "$continue_on_failure" != "true" ]; then
+                exit 1
+              fi
+              continue
+            fi
+
+            echo "==> Running $name" | tee -a logs/ascc_smoke_tests/summary.txt
+            if ! "$exe" >> "$log" 2>&1; then
+              echo "RUN_FAIL $name" | tee -a logs/ascc_smoke_tests/summary.txt logs/ascc_smoke_tests/failures.txt
+              failed=1
+              if [ "$continue_on_failure" != "true" ]; then
+                exit 1
+              fi
+              continue
+            fi
+
+            echo "PASS $name" | tee -a logs/ascc_smoke_tests/summary.txt
+          done
+
+          if [ "$failed" -ne 0 ]; then
+            echo "One or more ASCC smoke tests failed. See artifact logs." | tee -a logs/ascc_smoke_tests/summary.txt
+            exit 1
+          fi
+
+      - name: Upload ASCC smoke-test logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ascc-smoke-test-logs
+          path: logs/ascc_smoke_tests
+          if-no-files-found: error

@@ -1,0 +1,81 @@
+# transport_example.yaml
+# تكوينات تصريحية للطبقة الرابعة (L4 Transport Configuration)
+# متوافقة 100% مع نموذج TransportConfig (Pydantic v2 Frozen)
+# يدعم الحقن التصريحي لسياسات L5 RetryHook عبر hook_type + hook_kwargs
+
+cli_coder_agent:
+  transport_type: "cli"
+  direction: "outbound"
+  retry_policy:
+    max_attempts: 3
+    backoff_factor: 1.5
+    initial_timeout: 2.0
+    max_timeout: 30.0
+    # ← hook_type: معرف سياسة مسجل في session.hooks.retry_hooks.HOOK_REGISTRY
+    hook_type: "checkpoint_restore"  # قيم صالحة: "checkpoint_restore" | "graceful_abort"
+    # ← hook_kwargs: تمرير ديناميكي لمعاملات المنشئ (اختياري)
+    hook_kwargs:
+      max_restore_attempts: 1  # خاص بـ CheckpointRestoreHook
+  context_defaults:
+    default_ttl_seconds: 1800.0
+    idle_timeout_seconds: 120.0
+    offset_granularity: "message"
+    metadata_template:
+      agent_role: "coder"
+      workspace_id: "proj_alpha"
+  channel:
+    subprocess_cmd: ["kilocode", "run", "--json", "--quiet"]
+    env_overrides:
+      NO_PROGRESS: "1"
+      FORCE_COLOR: "0"
+      WORKSPACE_DIR: "/tmp/ws_coder"
+
+a2a_reviewer_agent:
+  transport_type: "a2a"
+  direction: "outbound"
+  retry_policy:
+    max_attempts: 5
+    backoff_factor: 2.0
+    initial_timeout: 5.0
+    max_timeout: 60.0
+    # ← مثال على سياسة إنهاء آمن لوكيل المراجعة
+    hook_type: "graceful_abort"
+    hook_kwargs:
+      allow_single_retry: true   # خاص بـ GracefulAbortHook
+      strict_on_permanent: true  # خاص بـ GracefulAbortHook
+  context_defaults:
+    default_ttl_seconds: 3600.0
+    idle_timeout_seconds: 300.0
+    offset_granularity: "chunk"
+    metadata_template:
+      agent_role: "reviewer"
+      protocol_version: "1.0"
+  channel:
+    endpoint_url: "http://reviewer-agent-service:8082/v1/a2a"
+    port: 8082
+    headers:
+      X-A2A-Correlation-Id: "auto-at-runtime"
+      Content-Type: "application/json"
+
+# ← مثال إضافي: وكيل يستخدم سياسة مخصصة مع ناقل TCP
+tcp_data_sync_agent:
+  transport_type: "tcp"
+  direction: "outbound"
+  retry_policy:
+    max_attempts: 2
+    backoff_factor: 1.0
+    initial_timeout: 1.0
+    max_timeout: 10.0
+    hook_type: "checkpoint_restore"
+    hook_kwargs:
+      max_restore_attempts: 2
+  context_defaults:
+    default_ttl_seconds: 900.0
+    idle_timeout_seconds: 60.0
+    offset_granularity: "byte"
+    metadata_template:
+      agent_role: "sync"
+      priority: "high"
+  channel:
+    endpoint_url: "tcp://sync-service:9000"
+    port: 9000

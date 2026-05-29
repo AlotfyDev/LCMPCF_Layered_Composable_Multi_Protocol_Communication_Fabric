@@ -1,0 +1,68 @@
+# config/transport_example.yaml
+fabric:
+  mode: embedded              # embedded | gateway
+  log_level: INFO
+  config_reload_watch: true   # تمكين إعادة التجميع التلقائي عند تعديل الملف
+
+network:
+  pool:
+    max_size: 50
+    idle_timeout: 120.0
+    health_check_interval: 30.0
+  load_balancer: round_robin  # round_robin | least_active | weighted
+  circuit_breaker:
+    enabled: true
+    failure_threshold: 5
+    recovery_timeout: 30.0
+    success_threshold: 2
+  resolver:
+    type: config              # config | dns | consul
+    cache_ttl: 60
+
+transport:
+  default_type: websocket
+  direction: bidirectional
+  retry_policy:
+    max_attempts: 3
+    base_delay: 1.0
+    max_delay: 10.0
+    hook_type: checkpoint_restore  # none | retry | checkpoint_restore
+
+session:
+  default_ttl: 3600.0
+  idle_timeout: 300.0
+  eviction_interval: 60.0
+  checkpoint_sync: memory     # memory | redis | postgres
+  auto_restore: true
+  max_concurrent: 1000
+
+presentation:
+  pipeline:
+    serializer: json          # json | msgpack | protobuf
+    compression: zstd         # zstd | gzip | none
+    min_compress_bytes: 1024
+
+protocols:
+  http:
+    enabled: true
+    base_url: ""
+    default_headers:
+      Accept: application/json
+  graphql:
+    enabled: true
+    max_depth: 10
+    introspection: false
+  websocket:
+    enabled: true
+    ping_interval: 20.0
+    close_timeout: 5.0
+  grpc:
+    enabled: false
+    secure: false
+
+health:
+  endpoints:
+    live_path: /api/v1/live
+    ready_path: /api/v1/ready
+    health_path: /api/v1/health
+  probe_interval: 10
