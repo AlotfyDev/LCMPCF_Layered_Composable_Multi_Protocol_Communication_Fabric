@@ -1,0 +1,6 @@
+stage_order,stage_name,input_schema_type,input_format,output_schema_type,output_format,processing_logic,input_location,output_location,schema_template_ref,validation_rules
+1,Scan Source Modules,python_modules[src/*],ast,module_node,list[dict],parse AST for imports,.docs/roadmap_to_full_production_ready/src/*.py,module_nodes,module_node,"exclude: .obsolete, .obsoletes files"
+2,Map Imports to Taxonomy,import_edges + taxonomy_nodes,dict,import_edge_mapped,dict,map file path to taxonomy ID,src/**/*.py,taxonomy_nodes[id]["depends_on"],dependency_graph/node_types/dependency_graph.md,"only implemented files (node_type=file)"
+3,Register Dependencies,import_edge_mapped,dict,taxonomy_node/file,dict,populate depends_on and depended_by arrays,None,taxonomy_nodes[id],dependency_graph/node_types/dependency_graph.md,"bidirectional mapping"
+4,Detect Cycles,taxonomy_edges,dict,cycle_report,list[list[str]],DFS with color marking (WHITE/GRAY/BLACK),None,cycles,None,"cycles indicate circular imports"
+5,Topological Sort,file_nodes + edges,dict,ordered_nodes,list[str],Kahn's algorithm for dependency order,None,topo_order,dependency_graph/node_types/dependency_graph.md,"cycles excluded from sort"

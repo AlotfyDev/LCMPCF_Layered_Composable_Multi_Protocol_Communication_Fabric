@@ -1,0 +1,6 @@
+stage_order,stage_name,input_schema_type,input_format,output_schema_type,output_format,processing_logic,input_location,output_location,schema_template_ref,validation_rules
+1,Load Domain Gaps,csv/domain_gaps/*.csv,csv,concern_node,list[dict],parse all CSVs into concern objects,.docs/roadmap_to_full_production_ready/domain_gaps/*.csv,taxonomy_nodes[id],concerns_graph/node_types/concerns_graph.md,"required: id, domain, severity"
+2,Normalize Dependencies,concern_node[dependencies string],string,concern_node[dict],dict,split dependencies field into list of concern IDs,None,concern_node["affects_concerns"],concerns_graph/node_types/concerns_graph.md,"separator: ; or ,"
+3,Link to Structural,concern_node + structural_nodes,dict,concern_edge,list[tuples],create affects edges: concern->structural,.docs/taxonomy_structure.json,taxonomy_edges[concern_id],concerns_graph/node_types/concerns_graph.md,"match by required_concerns field or path in evidence"
+4,Build Concern Graph,concerns list,dict,concerns_graph,json,create concern graph with edges,.docs/taxonomy_structure.json,None,concerns_graph/node_types/concerns_graph.md,
+5,Save Concerns,taxonomy_nodes[dict],json,json/taxonomy_structure.json,json,include concerns in output,.docs/roadmap_to_full_production_ready/domain_gaps/*.csv,.docs/taxonomy_structure.json,Mapped_Schemas.csv,"concerns included at root level"

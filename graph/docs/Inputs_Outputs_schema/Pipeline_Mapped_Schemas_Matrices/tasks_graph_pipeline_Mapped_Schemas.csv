@@ -1,0 +1,7 @@
+stage_order,stage_name,input_schema_type,input_format,output_schema_type,output_format,processing_logic,input_location,output_location,schema_template_ref,validation_rules
+1,Get File Stubs,taxonomy_nodes[file_stub],dict,task_candidate,dict,filter nodes where node_type=file_stub,.docs/taxonomy_structure.json,tasks[Task_Impl_*],tasks_graph/node_types/tasks_graph.md,"classification=To_Be_Implemented"
+2,Parse Required Concerns,file_stub[required_concerns],string,task_node[required_concerns list],dict,split comma-separated concern IDs into list,None,task["required_concerns"],tasks_graph/node_types/tasks_graph.md,
+3,Derive Priority,task_node[required_concerns],dict,task_node[priority],dict,lookup concern severities, use highest,taxonomy_nodes[concern_id]["severity"],tasks_graph/node_types/tasks_graph.md,"priority order: critical>high>medium>low"
+4,Create Task Node,file_stub + priority,dict,task_node,dict,construct task with computed fields,.docs/taxonomy_structure.json,tasks["Task_Impl_*"],tasks_graph/node_types/tasks_graph.md,status defaults to not_started
+5,Load Buggy Components,csv/buggy_components/*.csv,csv,task_debug_node,list[dict],parse bug reports into debug tasks,.docs/roadmap_to_full_production_ready/buggy_components/*.csv,tasks["Task_Debug_*"],tasks_graph/node_types/tasks_graph.md,map component path to structural node
+6,Merge Tasks,task_implement + task_debug,list,task_graph,dict,combine all task types,None,tasks,Mapped_Schemas.csv,
