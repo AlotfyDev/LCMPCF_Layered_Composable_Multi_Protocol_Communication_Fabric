@@ -1,0 +1,39 @@
+id,domain,component,file_ID,appropriate_location
+NET-005,network_L3,WeightedRoundRobinStrategy / RandomStrategy / LatencyAwareStrategy,0.1.2.4.f weighted_round_robin.py|0.1.2.5.f random_strategy.py|0.1.2.6.f latency_aware_strategy.py,network/algorithms/
+NET-006,network_L3,PeriodicHealthChecker,0.1.1.6.f periodic_health_checker.py,network/adapters/
+TRN-002,transport_L4,Transport-Level Backpressure,0.2.15.f backpressure.py,transport/
+TRN-003,transport_L4,TCP/UDS Keep-Alive Heartbeat,0.2.16.f heartbeat.py,transport/
+TRN-004,transport_L4,Zero-Copy Large Payload Handler,0.2.17.f large_payload_handler.py,transport/
+SES-004,session_L5,Distributed Session Coordination,0.3.3.2.f redis_registry.py|0.3.3.3.f redis_dispatcher.py,session/distributed/
+PMC-001,presentation_L6,ProtobufSerializer,0.4.1.5.f protobuf_serializer.py,presentation/codecs/
+PMC-002,presentation_L6,MsgPackSerializer,0.4.1.6.f msgpack_serializer.py,presentation/codecs/
+PMC-003,presentation_L6,CBORSerializer,0.4.1.7.f cbor_serializer.py,presentation/codecs/
+PMC-004,presentation_L6,AvroSerializer,0.4.1.8.f avro_serializer.py,presentation/codecs/
+PMC-005,presentation_L6,ContentTypeAnalyzer,0.4.1.9.f content_type_analyzer.py,presentation/codecs/
+PMC-006,presentation_L6,SnappyCompressionAdapter,0.4.1.10.f snappy_compression.py,presentation/codecs/
+PMC-007,presentation_L6,CharsetNormalizer,0.4.1.11.f charset_normalizer.py,presentation/codecs/
+MPC-001,protocols_L7,WebSocketProtocolHandler,0.5.11.f websocket_handler.py,protocols/
+MPC-002,protocols_L7,protocols/factory.py,0.5.12.f factory.py,protocols/
+OBS-001,observability,Structured Logging Framework,0.6.2.3.f structured_logger.py,wiring/config/
+OBS-002,observability,OpenTelemetry Distributed Tracing,0.6.2.4.f otel_tracer.py,wiring/config/
+OBS-003,observability,Prometheus Metrics Endpoint,0.6.4.6.f metrics_endpoint.py,wiring/factories/
+OBS-007,observability,Unified Error Response Schema,0.5.13.f error_response.py,protocols/
+GWY-001,gateway_sdk,FabricService (FastAPI Gateway App),0.7.3.f fabric_service.py,application/
+GWY-002,gateway_sdk,RemoteGatewayAdapter in src/,0.7.4.f remote_adapter.py,application/
+MC-TST-008,testing,actors package (BaseActor),0.8.1.f base_actor.py,actors/
+SEC-002,security,Authentication/Authorization,L1.2.2.1.f security_gateway.py,security/auth/
+SEC-003,security,Message-Level Encryption,0.4.1.12.f encryption.py,presentation/codecs/
+SEC-005,security,Input Validation / Content Sanitization,0.4.1.13.f validator.py,presentation/codecs/
+MC-TST-001,testing,test_network.py,L1.0.1.1.f test_network.py,tests/
+MC-TST-002,testing,test_transport.py,L1.0.1.2.f test_transport.py,tests/
+MC-TST-003,testing,test_session.py,L1.0.1.3.f test_session.py,tests/
+MC-TST-004,testing,test_presentation.py,L1.0.1.4.f test_presentation.py,tests/
+MC-TST-005,testing,test_protocols.py,L1.0.1.5.f test_protocols.py,tests/
+MC-TST-006,testing,test_wiring.py,L1.0.1.6.f test_wiring.py,tests/
+MC-TST-007,devops,Dockerfile,L1.1.2.1.f Dockerfile,/
+MC-TST-008,testing,docker-compose.yml,L1.1.2.2.f docker-compose.yml,/
+MC-TST-009,devops,pytest.ini,L1.1.3.1.f pytest.ini,/
+MC-TST-010,devops,pyproject.toml,L1.1.3.2.f pyproject.toml,/
+MC-TST-011,devops,requirements.txt,L1.1.3.3.f requirements.txt,/
+MC-TST-012,devops,requirements-dev.txt,L1.1.3.4.f requirements-dev.txt,/
+MC-TST-013,devops,ci.yml,L1.1.4.1.f ci.yml,.github/workflows/

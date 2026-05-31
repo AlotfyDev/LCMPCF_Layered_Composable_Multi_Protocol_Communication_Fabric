@@ -1,0 +1,20 @@
+graph TD
+    subgraph LAYERS ["OSI Layers"]
+        L3_network["Network (L3) - 13"]
+        L4_transport["Transport (L4) - 17"]
+        L5_session["Session (L5) - 16"]
+        L6_presentation["Presentation (L6) - 35"]
+        L7_protocols["Protocols (L7) - 24"]
+    end
+    subgraph CROSS_CUTTING ["Cross-Cutting"]
+        security["security - 9"]
+        observability["observability - 11"]
+        testing["testing - 33"]
+        devops["devops - 10"]
+        wiring_di["wiring_di - 12"]
+        gateway_sdk["gateway_sdk - 10"]
+    end
+    L3_network --> L4_transport
+    L4_transport --> L5_session
+    L5_session --> L6_presentation
+    L6_presentation --> L7_protocols

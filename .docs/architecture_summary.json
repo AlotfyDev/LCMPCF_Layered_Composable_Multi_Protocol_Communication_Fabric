@@ -1,0 +1,58 @@
+============================================================
+  DEPENDENCY GRAPH SUMMARY
+============================================================
+  Total nodes: 263
+  Total edges: 421
+
+  Nodes by type:
+    gap_buggy: 28
+    gap_domain: 131
+    gap_missing: 21
+    module: 83
+
+  Nodes by severity:
+    critical: 19
+    high: 63
+    low: 36
+    medium: 61
+    n/a: 83
+    resolved: 1
+
+  Nodes by domain:
+    application: 2
+    devops: 10
+    gateway_sdk: 10
+    main.py: 1
+    network: 12
+    network_L3: 13
+    observability: 11
+    presentation: 8
+    presentation_L6: 25
+    protocols: 10
+    protocols_L7: 24
+    security: 9
+    session: 12
+    session_L5: 16
+    testing: 33
+    transport: 21
+    transport_L4: 17
+    wiring: 17
+    wiring_di: 12
+
+  Top 10 most-impactful items (most dependents):
+    transport/context/__init__.py: 27 dependents  (transport/context/__init__.py)
+    transport/base.py: 26 dependents  (transport/base.py)
+    presentation/pipeline.py: 21 dependents  (presentation/pipeline.py)
+    network/protocol.py: 12 dependents  (network/protocol.py)
+    transport/channel/protocol.py: 12 dependents  (transport/channel/protocol.py)
+    protocols/error_mapper.py: 11 dependents  (protocols/error_mapper.py)
+    TST-001: 10 dependents  (Zero Unit Tests Under src/)
+    transport/config/__init__.py: 9 dependents  (transport/config/__init__.py)
+    OBS-003: 8 dependents  (Prometheus Metrics Endpoint)
+    presentation/protocol.py: 7 dependents  (presentation/protocol.py)
+
+  Critical path (3 nodes):
+    PRT-002: GraphQL Handler Structural Incompatibility with ABC [high]
+    PRT-006: IProtocolHandler ABC Not Inherited by Any Handler [high]
+    PRT-001: gRPC Handler Structural Incompatibility with ABC [high]
+============================================================

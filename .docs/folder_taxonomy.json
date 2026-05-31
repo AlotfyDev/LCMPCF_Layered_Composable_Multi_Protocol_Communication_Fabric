@@ -1,0 +1,2737 @@
+{
+  "domains": [
+    {
+      "id": "0.1",
+      "name": "network",
+      "parent": null,
+      "depth": 1,
+      "node_type": "folder_domain",
+      "depth_chain": [
+        "0.1"
+      ],
+      "ancestors_chain": [
+        "0.1"
+      ]
+    },
+    {
+      "id": "0.2",
+      "name": "transport",
+      "parent": null,
+      "depth": 1,
+      "node_type": "folder_domain",
+      "depth_chain": [
+        "0.2"
+      ],
+      "ancestors_chain": [
+        "0.2"
+      ]
+    },
+    {
+      "id": "0.3",
+      "name": "session",
+      "parent": null,
+      "depth": 1,
+      "node_type": "folder_domain",
+      "depth_chain": [
+        "0.3"
+      ],
+      "ancestors_chain": [
+        "0.3"
+      ]
+    },
+    {
+      "id": "0.4",
+      "name": "presentation",
+      "parent": null,
+      "depth": 1,
+      "node_type": "folder_domain",
+      "depth_chain": [
+        "0.4"
+      ],
+      "ancestors_chain": [
+        "0.4"
+      ]
+    },
+    {
+      "id": "0.5",
+      "name": "protocols",
+      "parent": null,
+      "depth": 1,
+      "node_type": "folder_domain",
+      "depth_chain": [
+        "0.5"
+      ],
+      "ancestors_chain": [
+        "0.5"
+      ]
+    },
+    {
+      "id": "0.6",
+      "name": "wiring",
+      "parent": null,
+      "depth": 1,
+      "node_type": "folder_domain",
+      "depth_chain": [
+        "0.6"
+      ],
+      "ancestors_chain": [
+        "0.6"
+      ]
+    },
+    {
+      "id": "0.7",
+      "name": "application",
+      "parent": null,
+      "depth": 1,
+      "node_type": "folder_domain",
+      "depth_chain": [
+        "0.7"
+      ],
+      "ancestors_chain": [
+        "0.7"
+      ]
+    }
+  ],
+  "subdomains": [
+    {
+      "id": "0.1.1",
+      "name": "adapters",
+      "parent": "0.1",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.1",
+        "0.1.1"
+      ],
+      "ancestors_chain": [
+        "0.1.1",
+        "0.1"
+      ]
+    },
+    {
+      "id": "0.1.2",
+      "name": "algorithms",
+      "parent": "0.1",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.1",
+        "0.1.2"
+      ],
+      "ancestors_chain": [
+        "0.1.2",
+        "0.1"
+      ]
+    },
+    {
+      "id": "0.1.3",
+      "name": "resilience",
+      "parent": "0.1",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.1",
+        "0.1.3"
+      ],
+      "ancestors_chain": [
+        "0.1.3",
+        "0.1"
+      ]
+    },
+    {
+      "id": "0.2.1",
+      "name": "channel",
+      "parent": "0.2",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.2",
+        "0.2.1"
+      ],
+      "ancestors_chain": [
+        "0.2.1",
+        "0.2"
+      ]
+    },
+    {
+      "id": "0.2.2",
+      "name": "config",
+      "parent": "0.2",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.2",
+        "0.2.2"
+      ],
+      "ancestors_chain": [
+        "0.2.2",
+        "0.2"
+      ]
+    },
+    {
+      "id": "0.2.3",
+      "name": "context",
+      "parent": "0.2",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.2",
+        "0.2.3"
+      ],
+      "ancestors_chain": [
+        "0.2.3",
+        "0.2"
+      ]
+    },
+    {
+      "id": "0.3.1",
+      "name": "adapters",
+      "parent": "0.3",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.3",
+        "0.3.1"
+      ],
+      "ancestors_chain": [
+        "0.3.1",
+        "0.3"
+      ]
+    },
+    {
+      "id": "0.3.2",
+      "name": "hooks",
+      "parent": "0.3",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.3",
+        "0.3.2"
+      ],
+      "ancestors_chain": [
+        "0.3.2",
+        "0.3"
+      ]
+    },
+    {
+      "id": "0.4.1",
+      "name": "codecs",
+      "parent": "0.4",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.4",
+        "0.4.1"
+      ],
+      "ancestors_chain": [
+        "0.4.1",
+        "0.4"
+      ]
+    },
+    {
+      "id": "0.6.1",
+      "name": "adapters",
+      "parent": "0.6",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.6",
+        "0.6.1"
+      ],
+      "ancestors_chain": [
+        "0.6.1",
+        "0.6"
+      ]
+    },
+    {
+      "id": "0.6.2",
+      "name": "config",
+      "parent": "0.6",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.6",
+        "0.6.2"
+      ],
+      "ancestors_chain": [
+        "0.6.2",
+        "0.6"
+      ]
+    },
+    {
+      "id": "0.6.3",
+      "name": "contracts",
+      "parent": "0.6",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.6",
+        "0.6.3"
+      ],
+      "ancestors_chain": [
+        "0.6.3",
+        "0.6"
+      ]
+    },
+    {
+      "id": "0.6.4",
+      "name": "factories",
+      "parent": "0.6",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.6",
+        "0.6.4"
+      ],
+      "ancestors_chain": [
+        "0.6.4",
+        "0.6"
+      ]
+    },
+    {
+      "id": "0.6.5",
+      "name": "pipelines",
+      "parent": "0.6",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.6",
+        "0.6.5"
+      ],
+      "ancestors_chain": [
+        "0.6.5",
+        "0.6"
+      ]
+    },
+    {
+      "id": "0.6.6",
+      "name": "registry",
+      "parent": "0.6",
+      "depth": 2,
+      "node_type": "folder_subdomain",
+      "depth_chain": [
+        "0.6",
+        "0.6.6"
+      ],
+      "ancestors_chain": [
+        "0.6.6",
+        "0.6"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "id": "0.1.1.f",
+      "name": "__init__.py",
+      "parent": "0.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/__init__.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.1.f"
+      ],
+      "ancestors_chain": [
+        "0.1.1.f",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.1.2.f",
+        "0.1.1.4.f",
+        "0.1.1.5.f",
+        "0.1.1.2.f",
+        "0.1.1.3.f",
+        "0.1.2.3.f",
+        "0.1.2.2.f",
+        "0.1.3.1.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.1.2.f",
+      "name": "protocol.py",
+      "parent": "0.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/protocol.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.2.f"
+      ],
+      "ancestors_chain": [
+        "0.1.2.f",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.2.1.3.f"
+      ],
+      "depended_by": [
+        "0.1.1.f",
+        "0.1.1.2.f",
+        "0.1.1.3.f",
+        "0.1.1.4.f",
+        "0.1.1.5.f",
+        "0.1.2.2.f",
+        "0.1.2.3.f",
+        "0.3.7.f",
+        "0.6.1.f",
+        "0.6.4.1.f",
+        "0.6.4.4.f"
+      ]
+    },
+    {
+      "id": "0.1.1.1.f",
+      "name": "__init__.py",
+      "parent": "0.1.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/adapters/__init__.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.1",
+        "0.1.1.1.f"
+      ],
+      "ancestors_chain": [
+        "0.1.1.1.f",
+        "0.1.1",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.1.1.4.f",
+        "0.1.1.2.f",
+        "0.1.1.3.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.1.1.2.f",
+      "name": "config_resolver.py",
+      "parent": "0.1.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/adapters/config_resolver.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.1",
+        "0.1.1.2.f"
+      ],
+      "ancestors_chain": [
+        "0.1.1.2.f",
+        "0.1.1",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.1.2.f"
+      ],
+      "depended_by": [
+        "0.1.1.f",
+        "0.1.1.1.f",
+        "0.6.4.1.f"
+      ]
+    },
+    {
+      "id": "0.1.1.3.f",
+      "name": "dns_resolver.py",
+      "parent": "0.1.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/adapters/dns_resolver.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.1",
+        "0.1.1.3.f"
+      ],
+      "ancestors_chain": [
+        "0.1.1.3.f",
+        "0.1.1",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.1.2.f"
+      ],
+      "depended_by": [
+        "0.1.1.f",
+        "0.1.1.1.f",
+        "0.6.4.1.f"
+      ]
+    },
+    {
+      "id": "0.1.1.4.f",
+      "name": "pool_adapter.py",
+      "parent": "0.1.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/adapters/pool_adapter.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.1",
+        "0.1.1.4.f"
+      ],
+      "ancestors_chain": [
+        "0.1.1.4.f",
+        "0.1.1",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.2.1.3.f",
+        "0.2.1.4.f",
+        "0.2.7.f",
+        "0.2.2.1.f",
+        "0.1.2.f"
+      ],
+      "depended_by": [
+        "0.1.1.f",
+        "0.1.1.1.f",
+        "0.6.4.1.f"
+      ]
+    },
+    {
+      "id": "0.1.1.5.f",
+      "name": "router_adapter.py",
+      "parent": "0.1.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/adapters/router_adapter.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.1",
+        "0.1.1.5.f"
+      ],
+      "ancestors_chain": [
+        "0.1.1.5.f",
+        "0.1.1",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.2.1.3.f",
+        "0.1.2.f"
+      ],
+      "depended_by": [
+        "0.1.1.f",
+        "0.6.4.1.f"
+      ]
+    },
+    {
+      "id": "0.1.2.1.f",
+      "name": "__init__.py",
+      "parent": "0.1.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/algorithms/__init__.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.2",
+        "0.1.2.1.f"
+      ],
+      "ancestors_chain": [
+        "0.1.2.1.f",
+        "0.1.2",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.1.2.3.f",
+        "0.1.2.2.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.1.2.2.f",
+      "name": "least_active.py",
+      "parent": "0.1.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/algorithms/least_active.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.2",
+        "0.1.2.2.f"
+      ],
+      "ancestors_chain": [
+        "0.1.2.2.f",
+        "0.1.2",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.1.2.f"
+      ],
+      "depended_by": [
+        "0.1.1.f",
+        "0.1.2.1.f",
+        "0.6.4.1.f"
+      ]
+    },
+    {
+      "id": "0.1.2.3.f",
+      "name": "round_robin.py",
+      "parent": "0.1.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/algorithms/round_robin.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.2",
+        "0.1.2.3.f"
+      ],
+      "ancestors_chain": [
+        "0.1.2.3.f",
+        "0.1.2",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.1.2.f"
+      ],
+      "depended_by": [
+        "0.1.1.f",
+        "0.1.2.1.f",
+        "0.6.4.1.f"
+      ]
+    },
+    {
+      "id": "0.1.3.1.f",
+      "name": "__init__.py",
+      "parent": "0.1.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/resilience/__init__.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.3",
+        "0.1.3.1.f"
+      ],
+      "ancestors_chain": [
+        "0.1.3.1.f",
+        "0.1.3",
+        "0.1"
+      ],
+      "depends_on": [
+        "0.1.3.2.f"
+      ],
+      "depended_by": [
+        "0.1.1.f"
+      ]
+    },
+    {
+      "id": "0.1.3.2.f",
+      "name": "circuit_breaker.py",
+      "parent": "0.1.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "network/resilience/circuit_breaker.py",
+      "depth_chain": [
+        "0.1",
+        "0.1.3",
+        "0.1.3.2.f"
+      ],
+      "ancestors_chain": [
+        "0.1.3.2.f",
+        "0.1.3",
+        "0.1"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.1.3.1.f",
+        "0.6.4.1.f"
+      ]
+    },
+    {
+      "id": "0.2.1.f",
+      "name": "__init__.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/__init__.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.1.f"
+      ],
+      "ancestors_chain": [
+        "0.2.1.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.5.f",
+        "0.2.7.f",
+        "0.2.8.f",
+        "0.2.9.f",
+        "0.2.10.f",
+        "0.2.11.f",
+        "0.2.13.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.2.2.f",
+      "name": "_ws_framing.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/_ws_framing.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.2.f"
+      ],
+      "ancestors_chain": [
+        "0.2.2.f",
+        "0.2"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.2.3.f"
+      ]
+    },
+    {
+      "id": "0.2.3.f",
+      "name": "_ws_keepalive.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/_ws_keepalive.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.3.f"
+      ],
+      "ancestors_chain": [
+        "0.2.3.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.2.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.2.4.f",
+      "name": "base.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/base.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.4.f"
+      ],
+      "ancestors_chain": [
+        "0.2.4.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.3.1.f"
+      ],
+      "depended_by": [
+        "0.7.2.f",
+        "0.4.2.f",
+        "0.5.2.f",
+        "0.5.3.f",
+        "0.5.4.f",
+        "0.5.5.f",
+        "0.5.6.f",
+        "0.5.7.f",
+        "0.5.8.f",
+        "0.5.10.f",
+        "0.3.4.f",
+        "0.3.2.1.f",
+        "0.2.1.f",
+        "0.2.1.2.f",
+        "0.2.1.3.f",
+        "0.2.5.f",
+        "0.2.7.f",
+        "0.2.8.f",
+        "0.2.9.f",
+        "0.2.10.f",
+        "0.2.11.f",
+        "0.2.13.f",
+        "0.6.1.f",
+        "0.6.4.2.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.2.5.f",
+      "name": "composite.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/composite.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.5.f"
+      ],
+      "ancestors_chain": [
+        "0.2.5.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f"
+      ],
+      "depended_by": [
+        "0.2.1.f",
+        "0.2.7.f"
+      ]
+    },
+    {
+      "id": "0.2.6.f",
+      "name": "consumer_example.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/consumer_example.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.6.f"
+      ],
+      "ancestors_chain": [
+        "0.2.6.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.2.1.f",
+        "0.2.3.1.f",
+        "0.2.7.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.2.7.f",
+      "name": "factory.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/factory.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.7.f"
+      ],
+      "ancestors_chain": [
+        "0.2.7.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.2.1.f",
+        "0.2.3.1.f",
+        "0.2.9.f",
+        "0.2.4.f",
+        "0.2.1.1.f",
+        "0.2.5.f",
+        "0.3.2.1.f",
+        "0.2.10.f",
+        "0.2.8.f",
+        "0.2.11.f",
+        "0.2.13.f",
+        "0.2.14.f",
+        "0.2.11.f"
+      ],
+      "depended_by": [
+        "0.1.1.4.f",
+        "0.2.1.f",
+        "0.2.6.f",
+        "0.6.4.5.f"
+      ]
+    },
+    {
+      "id": "0.2.8.f",
+      "name": "inprocess.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/inprocess.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.8.f"
+      ],
+      "ancestors_chain": [
+        "0.2.8.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.2.9.f"
+      ],
+      "depended_by": [
+        "0.2.1.f",
+        "0.2.7.f"
+      ]
+    },
+    {
+      "id": "0.2.9.f",
+      "name": "retry.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/retry.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.9.f"
+      ],
+      "ancestors_chain": [
+        "0.2.9.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.3.1.f",
+        "0.2.4.f",
+        "0.2.2.1.f"
+      ],
+      "depended_by": [
+        "0.2.1.f",
+        "0.2.7.f",
+        "0.2.8.f",
+        "0.2.10.f",
+        "0.2.11.f",
+        "0.2.13.f"
+      ]
+    },
+    {
+      "id": "0.2.10.f",
+      "name": "subprocess.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/subprocess.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.10.f"
+      ],
+      "ancestors_chain": [
+        "0.2.10.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.2.9.f"
+      ],
+      "depended_by": [
+        "0.2.1.f",
+        "0.2.7.f"
+      ]
+    },
+    {
+      "id": "0.2.11.f",
+      "name": "tcp.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/tcp.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.11.f"
+      ],
+      "ancestors_chain": [
+        "0.2.11.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.2.9.f"
+      ],
+      "depended_by": [
+        "0.2.1.f",
+        "0.2.7.f",
+        "0.2.7.f"
+      ]
+    },
+    {
+      "id": "0.2.12.f",
+      "name": "transport_example.yaml",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/transport_example.yaml",
+      "depth_chain": [
+        "0.2",
+        "0.2.12.f"
+      ],
+      "ancestors_chain": [
+        "0.2.12.f",
+        "0.2"
+      ],
+      "depends_on": [],
+      "depended_by": []
+    },
+    {
+      "id": "0.2.13.f",
+      "name": "uds.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/uds.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.13.f"
+      ],
+      "ancestors_chain": [
+        "0.2.13.f",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.2.9.f"
+      ],
+      "depended_by": [
+        "0.2.1.f",
+        "0.2.7.f"
+      ]
+    },
+    {
+      "id": "0.2.14.f",
+      "name": "websocket.py",
+      "parent": "0.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/websocket.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.14.f"
+      ],
+      "ancestors_chain": [
+        "0.2.14.f",
+        "0.2"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.2.7.f"
+      ]
+    },
+    {
+      "id": "0.2.1.1.f",
+      "name": "__init__.py",
+      "parent": "0.2.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/channel/__init__.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.1",
+        "0.2.1.1.f"
+      ],
+      "ancestors_chain": [
+        "0.2.1.1.f",
+        "0.2.1",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.1.3.f",
+        "0.2.1.2.f",
+        "0.2.1.4.f"
+      ],
+      "depended_by": [
+        "0.5.2.f",
+        "0.5.5.f",
+        "0.5.6.f",
+        "0.5.8.f",
+        "0.2.7.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.2.1.2.f",
+      "name": "channel.py",
+      "parent": "0.2.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/channel/channel.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.1",
+        "0.2.1.2.f"
+      ],
+      "ancestors_chain": [
+        "0.2.1.2.f",
+        "0.2.1",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.2.1.f",
+        "0.2.3.1.f",
+        "0.2.1.3.f",
+        "0.2.1.4.f"
+      ],
+      "depended_by": [
+        "0.2.1.1.f"
+      ]
+    },
+    {
+      "id": "0.2.1.3.f",
+      "name": "protocol.py",
+      "parent": "0.2.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/channel/protocol.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.1",
+        "0.2.1.3.f"
+      ],
+      "ancestors_chain": [
+        "0.2.1.3.f",
+        "0.2.1",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.3.1.f",
+        "0.2.4.f",
+        "0.2.1.4.f"
+      ],
+      "depended_by": [
+        "0.1.1.4.f",
+        "0.1.1.5.f",
+        "0.1.2.f",
+        "0.3.7.f",
+        "0.2.1.1.f",
+        "0.2.1.2.f",
+        "0.6.1.f",
+        "0.6.4.3.f",
+        "0.6.4.5.f",
+        "0.6.5.4.f"
+      ]
+    },
+    {
+      "id": "0.2.1.4.f",
+      "name": "types.py",
+      "parent": "0.2.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/channel/types.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.1",
+        "0.2.1.4.f"
+      ],
+      "ancestors_chain": [
+        "0.2.1.4.f",
+        "0.2.1",
+        "0.2"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.1.1.4.f",
+        "0.3.7.f",
+        "0.2.1.1.f",
+        "0.2.1.2.f",
+        "0.2.1.3.f"
+      ]
+    },
+    {
+      "id": "0.2.2.1.f",
+      "name": "__init__.py",
+      "parent": "0.2.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/config/__init__.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.2",
+        "0.2.2.1.f"
+      ],
+      "ancestors_chain": [
+        "0.2.2.1.f",
+        "0.2.2",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.2.2.f"
+      ],
+      "depended_by": [
+        "0.1.1.4.f",
+        "0.2.1.2.f",
+        "0.2.6.f",
+        "0.2.7.f",
+        "0.2.9.f",
+        "0.6.1.f",
+        "0.6.2.1.f",
+        "0.6.4.1.f",
+        "0.6.4.5.f",
+        "0.6.4.5.f"
+      ]
+    },
+    {
+      "id": "0.2.2.2.f",
+      "name": "transport_config.py",
+      "parent": "0.2.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/config/transport_config.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.2",
+        "0.2.2.2.f"
+      ],
+      "ancestors_chain": [
+        "0.2.2.2.f",
+        "0.2.2",
+        "0.2"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.2.2.1.f"
+      ]
+    },
+    {
+      "id": "0.2.3.1.f",
+      "name": "__init__.py",
+      "parent": "0.2.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/context/__init__.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.3",
+        "0.2.3.1.f"
+      ],
+      "ancestors_chain": [
+        "0.2.3.1.f",
+        "0.2.3",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.3.3.f",
+        "0.2.3.2.f"
+      ],
+      "depended_by": [
+        "0.7.2.f",
+        "0.5.2.f",
+        "0.5.4.f",
+        "0.5.5.f",
+        "0.5.6.f",
+        "0.5.7.f",
+        "0.5.8.f",
+        "0.5.9.f",
+        "0.5.10.f",
+        "0.3.4.f",
+        "0.3.2.1.f",
+        "0.2.4.f",
+        "0.2.1.2.f",
+        "0.2.1.3.f",
+        "0.2.5.f",
+        "0.2.6.f",
+        "0.2.7.f",
+        "0.2.8.f",
+        "0.2.9.f",
+        "0.2.10.f",
+        "0.2.11.f",
+        "0.2.13.f",
+        "0.6.1.f",
+        "0.6.4.5.f",
+        "0.6.5.2.f",
+        "0.6.5.3.f",
+        "0.6.5.4.f"
+      ]
+    },
+    {
+      "id": "0.2.3.2.f",
+      "name": "retry_hook.py",
+      "parent": "0.2.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/context/retry_hook.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.3",
+        "0.2.3.2.f"
+      ],
+      "ancestors_chain": [
+        "0.2.3.2.f",
+        "0.2.3",
+        "0.2"
+      ],
+      "depends_on": [
+        "0.2.3.3.f"
+      ],
+      "depended_by": [
+        "0.2.3.1.f"
+      ]
+    },
+    {
+      "id": "0.2.3.3.f",
+      "name": "transport_context.py",
+      "parent": "0.2.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "transport/context/transport_context.py",
+      "depth_chain": [
+        "0.2",
+        "0.2.3",
+        "0.2.3.3.f"
+      ],
+      "ancestors_chain": [
+        "0.2.3.3.f",
+        "0.2.3",
+        "0.2"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.2.3.1.f",
+        "0.2.3.2.f"
+      ]
+    },
+    {
+      "id": "0.3.1.f",
+      "name": "ICheckpointSync.py",
+      "parent": "0.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/ICheckpointSync.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.1.f"
+      ],
+      "ancestors_chain": [
+        "0.3.1.f",
+        "0.3"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.3.3.f",
+        "0.3.6.f",
+        "0.3.8.f",
+        "0.6.4.4.f"
+      ]
+    },
+    {
+      "id": "0.3.2.f",
+      "name": "ISessionLifecycle.py",
+      "parent": "0.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/ISessionLifecycle.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.2.f"
+      ],
+      "ancestors_chain": [
+        "0.3.2.f",
+        "0.3"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.3.3.f",
+        "0.3.6.f"
+      ]
+    },
+    {
+      "id": "0.3.3.f",
+      "name": "__init__.py",
+      "parent": "0.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/__init__.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.3.f"
+      ],
+      "ancestors_chain": [
+        "0.3.3.f",
+        "0.3"
+      ],
+      "depends_on": [
+        "0.3.4.f",
+        "0.3.5.f",
+        "0.3.2.f",
+        "0.3.1.f",
+        "0.3.8.f",
+        "0.3.7.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.3.4.f",
+      "name": "coordinator.py",
+      "parent": "0.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/coordinator.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.4.f"
+      ],
+      "ancestors_chain": [
+        "0.3.4.f",
+        "0.3"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.3.6.f"
+      ],
+      "depended_by": [
+        "0.3.3.f",
+        "0.3.8.f",
+        "0.6.4.4.f"
+      ]
+    },
+    {
+      "id": "0.3.5.f",
+      "name": "factory.py",
+      "parent": "0.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/factory.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.5.f"
+      ],
+      "ancestors_chain": [
+        "0.3.5.f",
+        "0.3"
+      ],
+      "depends_on": [
+        "0.3.6.f",
+        "0.3.1.1.f",
+        "0.3.1.2.f",
+        "0.3.1.3.f"
+      ],
+      "depended_by": [
+        "0.3.3.f"
+      ]
+    },
+    {
+      "id": "0.3.6.f",
+      "name": "protocol.py",
+      "parent": "0.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/protocol.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.6.f"
+      ],
+      "ancestors_chain": [
+        "0.3.6.f",
+        "0.3"
+      ],
+      "depends_on": [
+        "0.3.1.f",
+        "0.3.2.f"
+      ],
+      "depended_by": [
+        "0.3.1.1.f",
+        "0.3.1.1.f",
+        "0.3.1.2.f",
+        "0.3.1.2.f",
+        "0.3.1.3.f",
+        "0.3.1.3.f",
+        "0.3.4.f",
+        "0.3.5.f"
+      ]
+    },
+    {
+      "id": "0.3.7.f",
+      "name": "session_dispatcher.py",
+      "parent": "0.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/session_dispatcher.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.7.f"
+      ],
+      "ancestors_chain": [
+        "0.3.7.f",
+        "0.3"
+      ],
+      "depends_on": [
+        "0.2.1.3.f",
+        "0.2.1.4.f",
+        "0.3.8.f",
+        "0.1.2.f"
+      ],
+      "depended_by": [
+        "0.3.3.f",
+        "0.6.1.f",
+        "0.6.4.4.f",
+        "0.6.5.2.f",
+        "0.6.5.3.f",
+        "0.6.5.4.f"
+      ]
+    },
+    {
+      "id": "0.3.8.f",
+      "name": "session_registry.py",
+      "parent": "0.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/session_registry.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.8.f"
+      ],
+      "ancestors_chain": [
+        "0.3.8.f",
+        "0.3"
+      ],
+      "depends_on": [
+        "0.3.4.f",
+        "0.3.1.f"
+      ],
+      "depended_by": [
+        "0.3.3.f",
+        "0.3.7.f",
+        "0.6.1.f",
+        "0.6.4.4.f"
+      ]
+    },
+    {
+      "id": "0.3.1.1.f",
+      "name": "cli_session.py",
+      "parent": "0.3.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/adapters/cli_session.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.1",
+        "0.3.1.1.f"
+      ],
+      "ancestors_chain": [
+        "0.3.1.1.f",
+        "0.3.1",
+        "0.3"
+      ],
+      "depends_on": [
+        "0.3.6.f",
+        "0.3.6.f"
+      ],
+      "depended_by": [
+        "0.3.5.f"
+      ]
+    },
+    {
+      "id": "0.3.1.2.f",
+      "name": "inprocess_session.py",
+      "parent": "0.3.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/adapters/inprocess_session.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.1",
+        "0.3.1.2.f"
+      ],
+      "ancestors_chain": [
+        "0.3.1.2.f",
+        "0.3.1",
+        "0.3"
+      ],
+      "depends_on": [
+        "0.3.6.f",
+        "0.3.6.f"
+      ],
+      "depended_by": [
+        "0.3.5.f"
+      ]
+    },
+    {
+      "id": "0.3.1.3.f",
+      "name": "network_session.py",
+      "parent": "0.3.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/adapters/network_session.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.1",
+        "0.3.1.3.f"
+      ],
+      "ancestors_chain": [
+        "0.3.1.3.f",
+        "0.3.1",
+        "0.3"
+      ],
+      "depends_on": [
+        "0.3.6.f",
+        "0.3.6.f"
+      ],
+      "depended_by": [
+        "0.3.5.f"
+      ]
+    },
+    {
+      "id": "0.3.2.1.f",
+      "name": "retry_hooks.py",
+      "parent": "0.3.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "session/hooks/retry_hooks.py",
+      "depth_chain": [
+        "0.3",
+        "0.3.2",
+        "0.3.2.1.f"
+      ],
+      "ancestors_chain": [
+        "0.3.2.1.f",
+        "0.3.2",
+        "0.3"
+      ],
+      "depends_on": [
+        "0.2.3.1.f",
+        "0.2.4.f"
+      ],
+      "depended_by": [
+        "0.2.7.f"
+      ]
+    },
+    {
+      "id": "0.4.1.f",
+      "name": "__init__.py",
+      "parent": "0.4",
+      "depth": 3,
+      "node_type": "file",
+      "path": "presentation/__init__.py",
+      "depth_chain": [
+        "0.4",
+        "0.4.1.f"
+      ],
+      "ancestors_chain": [
+        "0.4.1.f",
+        "0.4"
+      ],
+      "depends_on": [
+        "0.4.3.f",
+        "0.4.2.f",
+        "0.4.1.1.f",
+        "0.4.4.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.4.2.f",
+      "name": "pipeline.py",
+      "parent": "0.4",
+      "depth": 3,
+      "node_type": "file",
+      "path": "presentation/pipeline.py",
+      "depth_chain": [
+        "0.4",
+        "0.4.2.f"
+      ],
+      "ancestors_chain": [
+        "0.4.2.f",
+        "0.4"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.4.3.f"
+      ],
+      "depended_by": [
+        "0.7.2.f",
+        "0.4.1.f",
+        "0.5.2.f",
+        "0.5.4.f",
+        "0.5.5.f",
+        "0.5.6.f",
+        "0.5.7.f",
+        "0.5.8.f",
+        "0.5.10.f",
+        "0.6.1.f",
+        "0.6.4.2.f",
+        "0.6.4.3.f",
+        "0.6.5.2.f",
+        "0.6.5.3.f",
+        "0.6.5.4.f"
+      ]
+    },
+    {
+      "id": "0.4.3.f",
+      "name": "protocol.py",
+      "parent": "0.4",
+      "depth": 3,
+      "node_type": "file",
+      "path": "presentation/protocol.py",
+      "depth_chain": [
+        "0.4",
+        "0.4.3.f"
+      ],
+      "ancestors_chain": [
+        "0.4.3.f",
+        "0.4"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.4.1.f",
+        "0.4.1.2.f",
+        "0.4.1.3.f",
+        "0.4.1.4.f",
+        "0.4.2.f",
+        "0.5.3.f",
+        "0.6.4.2.f"
+      ]
+    },
+    {
+      "id": "0.4.4.f",
+      "name": "request_types.py",
+      "parent": "0.4",
+      "depth": 3,
+      "node_type": "file",
+      "path": "presentation/request_types.py",
+      "depth_chain": [
+        "0.4",
+        "0.4.4.f"
+      ],
+      "ancestors_chain": [
+        "0.4.4.f",
+        "0.4"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.4.1.f"
+      ]
+    },
+    {
+      "id": "0.4.1.1.f",
+      "name": "__init__.py",
+      "parent": "0.4.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "presentation/codecs/__init__.py",
+      "depth_chain": [
+        "0.4",
+        "0.4.1",
+        "0.4.1.1.f"
+      ],
+      "ancestors_chain": [
+        "0.4.1.1.f",
+        "0.4.1",
+        "0.4"
+      ],
+      "depends_on": [
+        "0.4.1.3.f",
+        "0.4.1.4.f",
+        "0.4.1.2.f"
+      ],
+      "depended_by": [
+        "0.4.1.f"
+      ]
+    },
+    {
+      "id": "0.4.1.2.f",
+      "name": "compression.py",
+      "parent": "0.4.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "presentation/codecs/compression.py",
+      "depth_chain": [
+        "0.4",
+        "0.4.1",
+        "0.4.1.2.f"
+      ],
+      "ancestors_chain": [
+        "0.4.1.2.f",
+        "0.4.1",
+        "0.4"
+      ],
+      "depends_on": [
+        "0.4.3.f"
+      ],
+      "depended_by": [
+        "0.4.1.1.f",
+        "0.6.4.2.f"
+      ]
+    },
+    {
+      "id": "0.4.1.3.f",
+      "name": "json_serializer.py",
+      "parent": "0.4.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "presentation/codecs/json_serializer.py",
+      "depth_chain": [
+        "0.4",
+        "0.4.1",
+        "0.4.1.3.f"
+      ],
+      "ancestors_chain": [
+        "0.4.1.3.f",
+        "0.4.1",
+        "0.4"
+      ],
+      "depends_on": [
+        "0.4.3.f"
+      ],
+      "depended_by": [
+        "0.4.1.1.f",
+        "0.6.4.2.f"
+      ]
+    },
+    {
+      "id": "0.4.1.4.f",
+      "name": "sse_stream_codec.py",
+      "parent": "0.4.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "presentation/codecs/sse_stream_codec.py",
+      "depth_chain": [
+        "0.4",
+        "0.4.1",
+        "0.4.1.4.f"
+      ],
+      "ancestors_chain": [
+        "0.4.1.4.f",
+        "0.4.1",
+        "0.4"
+      ],
+      "depends_on": [
+        "0.4.3.f"
+      ],
+      "depended_by": [
+        "0.4.1.1.f",
+        "0.6.4.2.f"
+      ]
+    },
+    {
+      "id": "0.5.1.f",
+      "name": "__init__.py",
+      "parent": "0.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "protocols/__init__.py",
+      "depth_chain": [
+        "0.5",
+        "0.5.1.f"
+      ],
+      "ancestors_chain": [
+        "0.5.1.f",
+        "0.5"
+      ],
+      "depends_on": [
+        "0.5.3.f",
+        "0.5.6.f",
+        "0.5.2.f",
+        "0.5.5.f",
+        "0.5.4.f",
+        "0.5.10.f",
+        "0.5.8.f",
+        "0.5.7.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.5.2.f",
+      "name": "cli_handler.py",
+      "parent": "0.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "protocols/cli_handler.py",
+      "depth_chain": [
+        "0.5",
+        "0.5.2.f"
+      ],
+      "ancestors_chain": [
+        "0.5.2.f",
+        "0.5"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.2.1.1.f",
+        "0.4.2.f",
+        "0.5.3.f"
+      ],
+      "depended_by": [
+        "0.5.1.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.5.3.f",
+      "name": "error_mapper.py",
+      "parent": "0.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "protocols/error_mapper.py",
+      "depth_chain": [
+        "0.5",
+        "0.5.3.f"
+      ],
+      "ancestors_chain": [
+        "0.5.3.f",
+        "0.5"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.4.3.f"
+      ],
+      "depended_by": [
+        "0.7.2.f",
+        "0.5.1.f",
+        "0.5.2.f",
+        "0.5.4.f",
+        "0.5.5.f",
+        "0.5.6.f",
+        "0.5.7.f",
+        "0.5.8.f",
+        "0.5.10.f"
+      ]
+    },
+    {
+      "id": "0.5.4.f",
+      "name": "graphql_handler.py",
+      "parent": "0.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "protocols/graphql_handler.py",
+      "depth_chain": [
+        "0.5",
+        "0.5.4.f"
+      ],
+      "ancestors_chain": [
+        "0.5.4.f",
+        "0.5"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.4.2.f",
+        "0.5.3.f"
+      ],
+      "depended_by": [
+        "0.7.2.f",
+        "0.5.1.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.5.5.f",
+      "name": "grpc_handler.py",
+      "parent": "0.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "protocols/grpc_handler.py",
+      "depth_chain": [
+        "0.5",
+        "0.5.5.f"
+      ],
+      "ancestors_chain": [
+        "0.5.5.f",
+        "0.5"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.2.1.1.f",
+        "0.4.2.f",
+        "0.5.3.f"
+      ],
+      "depended_by": [
+        "0.5.1.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.5.6.f",
+      "name": "http_handler.py",
+      "parent": "0.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "protocols/http_handler.py",
+      "depth_chain": [
+        "0.5",
+        "0.5.6.f"
+      ],
+      "ancestors_chain": [
+        "0.5.6.f",
+        "0.5"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.2.1.1.f",
+        "0.4.2.f",
+        "0.5.3.f"
+      ],
+      "depended_by": [
+        "0.7.2.f",
+        "0.5.1.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.5.7.f",
+      "name": "inprocess_handler.py",
+      "parent": "0.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "protocols/inprocess_handler.py",
+      "depth_chain": [
+        "0.5",
+        "0.5.7.f"
+      ],
+      "ancestors_chain": [
+        "0.5.7.f",
+        "0.5"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.4.2.f",
+        "0.5.3.f"
+      ],
+      "depended_by": [
+        "0.5.1.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.5.8.f",
+      "name": "local_ipc_handler.py",
+      "parent": "0.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "protocols/local_ipc_handler.py",
+      "depth_chain": [
+        "0.5",
+        "0.5.8.f"
+      ],
+      "ancestors_chain": [
+        "0.5.8.f",
+        "0.5"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.2.1.1.f",
+        "0.4.2.f",
+        "0.5.3.f"
+      ],
+      "depended_by": [
+        "0.5.1.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.5.9.f",
+      "name": "protocol.py",
+      "parent": "0.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "protocols/protocol.py",
+      "depth_chain": [
+        "0.5",
+        "0.5.9.f"
+      ],
+      "ancestors_chain": [
+        "0.5.9.f",
+        "0.5"
+      ],
+      "depends_on": [
+        "0.2.3.1.f"
+      ],
+      "depended_by": [
+        "0.6.1.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.5.10.f",
+      "name": "webhook_handler.py",
+      "parent": "0.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "protocols/webhook_handler.py",
+      "depth_chain": [
+        "0.5",
+        "0.5.10.f"
+      ],
+      "ancestors_chain": [
+        "0.5.10.f",
+        "0.5"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.3.1.f",
+        "0.4.2.f",
+        "0.5.3.f"
+      ],
+      "depended_by": [
+        "0.7.2.f",
+        "0.5.1.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.6.1.f",
+      "name": "assembler.py",
+      "parent": "0.6",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/assembler.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.1.f"
+      ],
+      "ancestors_chain": [
+        "0.6.1.f",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.6.2.1.f",
+        "0.6.6.2.f",
+        "0.6.6.3.f",
+        "0.6.5.3.f",
+        "0.6.5.4.f",
+        "0.6.5.2.f",
+        "0.2.3.1.f",
+        "0.3.7.f",
+        "0.3.8.f",
+        "0.1.2.f",
+        "0.4.2.f",
+        "0.5.9.f",
+        "0.6.3.1.f",
+        "0.6.4.1.f",
+        "0.6.4.5.f",
+        "0.6.4.4.f",
+        "0.6.4.2.f",
+        "0.6.4.3.f",
+        "0.2.4.f",
+        "0.2.1.3.f",
+        "0.2.2.1.f"
+      ],
+      "depended_by": [
+        "0.6.2.f"
+      ]
+    },
+    {
+      "id": "0.6.2.f",
+      "name": "runner.py",
+      "parent": "0.6",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/runner.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.2.f"
+      ],
+      "ancestors_chain": [
+        "0.6.2.f",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.6.1.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.6.1.1.f",
+      "name": "fabric_health.py",
+      "parent": "0.6.1",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/adapters/fabric_health.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.1",
+        "0.6.1.1.f"
+      ],
+      "ancestors_chain": [
+        "0.6.1.1.f",
+        "0.6.1",
+        "0.6"
+      ],
+      "depends_on": [],
+      "depended_by": []
+    },
+    {
+      "id": "0.6.2.1.f",
+      "name": "loader.py",
+      "parent": "0.6.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/config/loader.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.2",
+        "0.6.2.1.f"
+      ],
+      "ancestors_chain": [
+        "0.6.2.1.f",
+        "0.6.2",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.2.2.1.f"
+      ],
+      "depended_by": [
+        "0.6.1.f",
+        "0.6.4.3.f"
+      ]
+    },
+    {
+      "id": "0.6.2.2.f",
+      "name": "transport_example.yaml",
+      "parent": "0.6.2",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/config/transport_example.yaml",
+      "depth_chain": [
+        "0.6",
+        "0.6.2",
+        "0.6.2.2.f"
+      ],
+      "ancestors_chain": [
+        "0.6.2.2.f",
+        "0.6.2",
+        "0.6"
+      ],
+      "depends_on": [],
+      "depended_by": []
+    },
+    {
+      "id": "0.6.3.1.f",
+      "name": "communication_gateway.py",
+      "parent": "0.6.3",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/contracts/communication_gateway.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.3",
+        "0.6.3.1.f"
+      ],
+      "ancestors_chain": [
+        "0.6.3.1.f",
+        "0.6.3",
+        "0.6"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.6.1.f"
+      ]
+    },
+    {
+      "id": "0.6.4.1.f",
+      "name": "network_provider.py",
+      "parent": "0.6.4",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/factories/network_provider.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.4",
+        "0.6.4.1.f"
+      ],
+      "ancestors_chain": [
+        "0.6.4.1.f",
+        "0.6.4",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.1.2.f",
+        "0.1.1.4.f",
+        "0.1.1.5.f",
+        "0.1.1.3.f",
+        "0.1.1.2.f",
+        "0.1.2.3.f",
+        "0.1.2.2.f",
+        "0.1.3.2.f",
+        "0.2.2.1.f"
+      ],
+      "depended_by": [
+        "0.6.1.f"
+      ]
+    },
+    {
+      "id": "0.6.4.2.f",
+      "name": "presentation_provider.py",
+      "parent": "0.6.4",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/factories/presentation_provider.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.4",
+        "0.6.4.2.f"
+      ],
+      "ancestors_chain": [
+        "0.6.4.2.f",
+        "0.6.4",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.4.2.f",
+        "0.4.3.f",
+        "0.4.1.3.f",
+        "0.4.1.4.f",
+        "0.4.1.2.f"
+      ],
+      "depended_by": [
+        "0.6.1.f"
+      ]
+    },
+    {
+      "id": "0.6.4.3.f",
+      "name": "protocol_provider.py",
+      "parent": "0.6.4",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/factories/protocol_provider.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.4",
+        "0.6.4.3.f"
+      ],
+      "ancestors_chain": [
+        "0.6.4.3.f",
+        "0.6.4",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.2.4.f",
+        "0.2.1.1.f",
+        "0.2.1.3.f",
+        "0.4.2.f",
+        "0.5.9.f",
+        "0.5.6.f",
+        "0.5.2.f",
+        "0.5.5.f",
+        "0.5.4.f",
+        "0.5.10.f",
+        "0.5.8.f",
+        "0.5.7.f",
+        "0.6.2.1.f"
+      ],
+      "depended_by": [
+        "0.6.1.f"
+      ]
+    },
+    {
+      "id": "0.6.4.4.f",
+      "name": "session_provider.py",
+      "parent": "0.6.4",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/factories/session_provider.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.4",
+        "0.6.4.4.f"
+      ],
+      "ancestors_chain": [
+        "0.6.4.4.f",
+        "0.6.4",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.3.8.f",
+        "0.3.7.f",
+        "0.3.4.f",
+        "0.3.1.f",
+        "0.1.2.f"
+      ],
+      "depended_by": [
+        "0.6.1.f"
+      ]
+    },
+    {
+      "id": "0.6.4.5.f",
+      "name": "transport_provider.py",
+      "parent": "0.6.4",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/factories/transport_provider.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.4",
+        "0.6.4.5.f"
+      ],
+      "ancestors_chain": [
+        "0.6.4.5.f",
+        "0.6.4",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.2.2.1.f",
+        "0.2.7.f",
+        "0.2.3.1.f",
+        "0.2.1.3.f",
+        "0.2.2.1.f"
+      ],
+      "depended_by": [
+        "0.6.1.f"
+      ]
+    },
+    {
+      "id": "0.6.5.1.f",
+      "name": "__init__.py",
+      "parent": "0.6.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/pipelines/__init__.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.5",
+        "0.6.5.1.f"
+      ],
+      "ancestors_chain": [
+        "0.6.5.1.f",
+        "0.6.5",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.6.5.2.f",
+        "0.6.5.4.f",
+        "0.6.5.3.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.6.5.2.f",
+      "name": "base.py",
+      "parent": "0.6.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/pipelines/base.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.5",
+        "0.6.5.2.f"
+      ],
+      "ancestors_chain": [
+        "0.6.5.2.f",
+        "0.6.5",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.2.3.1.f",
+        "0.4.2.f",
+        "0.3.7.f"
+      ],
+      "depended_by": [
+        "0.6.1.f",
+        "0.6.5.1.f",
+        "0.6.5.3.f",
+        "0.6.5.4.f",
+        "0.6.6.3.f"
+      ]
+    },
+    {
+      "id": "0.6.5.3.f",
+      "name": "inbound.py",
+      "parent": "0.6.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/pipelines/inbound.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.5",
+        "0.6.5.3.f"
+      ],
+      "ancestors_chain": [
+        "0.6.5.3.f",
+        "0.6.5",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.2.3.1.f",
+        "0.3.7.f",
+        "0.4.2.f",
+        "0.6.5.2.f"
+      ],
+      "depended_by": [
+        "0.6.1.f",
+        "0.6.5.1.f"
+      ]
+    },
+    {
+      "id": "0.6.5.4.f",
+      "name": "outbound.py",
+      "parent": "0.6.5",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/pipelines/outbound.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.5",
+        "0.6.5.4.f"
+      ],
+      "ancestors_chain": [
+        "0.6.5.4.f",
+        "0.6.5",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.2.3.1.f",
+        "0.2.1.3.f",
+        "0.3.7.f",
+        "0.4.2.f",
+        "0.6.5.2.f"
+      ],
+      "depended_by": [
+        "0.6.1.f",
+        "0.6.5.1.f"
+      ]
+    },
+    {
+      "id": "0.6.6.1.f",
+      "name": "__init__.py",
+      "parent": "0.6.6",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/registry/__init__.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.6",
+        "0.6.6.1.f"
+      ],
+      "ancestors_chain": [
+        "0.6.6.1.f",
+        "0.6.6",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.6.6.2.f",
+        "0.6.6.3.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.6.6.2.f",
+      "name": "layer_registry.py",
+      "parent": "0.6.6",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/registry/layer_registry.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.6",
+        "0.6.6.2.f"
+      ],
+      "ancestors_chain": [
+        "0.6.6.2.f",
+        "0.6.6",
+        "0.6"
+      ],
+      "depends_on": [],
+      "depended_by": [
+        "0.6.1.f",
+        "0.6.6.1.f"
+      ]
+    },
+    {
+      "id": "0.6.6.3.f",
+      "name": "pipeline_registry.py",
+      "parent": "0.6.6",
+      "depth": 3,
+      "node_type": "file",
+      "path": "wiring/registry/pipeline_registry.py",
+      "depth_chain": [
+        "0.6",
+        "0.6.6",
+        "0.6.6.3.f"
+      ],
+      "ancestors_chain": [
+        "0.6.6.3.f",
+        "0.6.6",
+        "0.6"
+      ],
+      "depends_on": [
+        "0.6.5.2.f"
+      ],
+      "depended_by": [
+        "0.6.1.f",
+        "0.6.6.1.f"
+      ]
+    },
+    {
+      "id": "0.7.1.f",
+      "name": "__init__.py",
+      "parent": "0.7",
+      "depth": 3,
+      "node_type": "file",
+      "path": "application/__init__.py",
+      "depth_chain": [
+        "0.7",
+        "0.7.1.f"
+      ],
+      "ancestors_chain": [
+        "0.7.1.f",
+        "0.7"
+      ],
+      "depends_on": [
+        "0.7.2.f"
+      ],
+      "depended_by": []
+    },
+    {
+      "id": "0.7.2.f",
+      "name": "fastapi_router.py",
+      "parent": "0.7",
+      "depth": 3,
+      "node_type": "file",
+      "path": "application/fastapi_router.py",
+      "depth_chain": [
+        "0.7",
+        "0.7.2.f"
+      ],
+      "ancestors_chain": [
+        "0.7.2.f",
+        "0.7"
+      ],
+      "depends_on": [
+        "0.2.3.1.f",
+        "0.4.2.f",
+        "0.5.6.f",
+        "0.5.4.f",
+        "0.5.10.f",
+        "0.5.3.f",
+        "0.2.4.f"
+      ],
+      "depended_by": [
+        "0.7.1.f"
+      ]
+    }
+  ],
+  "total_nodes": 107,
+  "total_edges": 100,
+  "dependency_edges": {
+    "0.1": [
+      "0.1.2.f",
+      "0.1.3",
+      "0.1.1",
+      "0.1.2",
+      "0.1.1.f"
+    ],
+    "0.2": [
+      "0.2.9.f",
+      "0.2.1",
+      "0.2.1.f",
+      "0.2.14.f",
+      "0.2.4.f",
+      "0.2.3",
+      "0.2.13.f",
+      "0.2.10.f",
+      "0.2.5.f",
+      "0.2.6.f",
+      "0.2.11.f",
+      "0.2.2.f",
+      "0.2.12.f",
+      "0.2.2",
+      "0.2.7.f",
+      "0.2.3.f",
+      "0.2.8.f"
+    ],
+    "0.3": [
+      "0.3.1",
+      "0.3.4.f",
+      "0.3.3.f",
+      "0.3.2.f",
+      "0.3.2",
+      "0.3.6.f",
+      "0.3.8.f",
+      "0.3.5.f",
+      "0.3.1.f",
+      "0.3.7.f"
+    ],
+    "0.4": [
+      "0.4.3.f",
+      "0.4.4.f",
+      "0.4.1.f",
+      "0.4.2.f",
+      "0.4.1"
+    ],
+    "0.6": [
+      "0.6.1",
+      "0.6.1.f",
+      "0.6.3",
+      "0.6.2.f",
+      "0.6.2",
+      "0.6.5",
+      "0.6.4",
+      "0.6.6"
+    ],
+    "0.1.1": [
+      "0.1.1.4.f",
+      "0.1.1.3.f",
+      "0.1.1.2.f",
+      "0.1.1.5.f",
+      "0.1.1.1.f"
+    ],
+    "0.1.2": [
+      "0.1.2.3.f",
+      "0.1.2.2.f",
+      "0.1.2.1.f"
+    ],
+    "0.1.3": [
+      "0.1.3.2.f",
+      "0.1.3.1.f"
+    ],
+    "0.2.1": [
+      "0.2.1.3.f",
+      "0.2.1.1.f",
+      "0.2.1.4.f",
+      "0.2.1.2.f"
+    ],
+    "0.2.2": [
+      "0.2.2.2.f",
+      "0.2.2.1.f"
+    ],
+    "0.2.3": [
+      "0.2.3.2.f",
+      "0.2.3.1.f",
+      "0.2.3.3.f"
+    ],
+    "0.3.1": [
+      "0.3.1.3.f",
+      "0.3.1.2.f",
+      "0.3.1.1.f"
+    ],
+    "0.3.2": [
+      "0.3.2.1.f"
+    ],
+    "0.4.1": [
+      "0.4.1.4.f",
+      "0.4.1.3.f",
+      "0.4.1.1.f",
+      "0.4.1.2.f"
+    ],
+    "0.5": [
+      "0.5.2.f",
+      "0.5.7.f",
+      "0.5.1.f",
+      "0.5.4.f",
+      "0.5.9.f",
+      "0.5.10.f",
+      "0.5.6.f",
+      "0.5.3.f",
+      "0.5.5.f",
+      "0.5.8.f"
+    ],
+    "0.6.1": [
+      "0.6.1.1.f"
+    ],
+    "0.6.2": [
+      "0.6.2.1.f",
+      "0.6.2.2.f"
+    ],
+    "0.6.3": [
+      "0.6.3.1.f"
+    ],
+    "0.6.4": [
+      "0.6.4.2.f",
+      "0.6.4.1.f",
+      "0.6.4.5.f",
+      "0.6.4.3.f",
+      "0.6.4.4.f"
+    ],
+    "0.6.5": [
+      "0.6.5.4.f",
+      "0.6.5.2.f",
+      "0.6.5.3.f",
+      "0.6.5.1.f"
+    ],
+    "0.6.6": [
+      "0.6.6.1.f",
+      "0.6.6.2.f",
+      "0.6.6.3.f"
+    ],
+    "0.7": [
+      "0.7.1.f",
+      "0.7.2.f"
+    ]
+  }
+}

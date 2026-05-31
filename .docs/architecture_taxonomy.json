@@ -1,0 +1,98 @@
+{
+  "system_name": "Multi-Protocol Communication Fabric",
+  "primary_taxonomy": {
+    "L3_network": {
+      "description": "Connection pooling, load balancing, circuit breaking, routing",
+      "nodes": []
+    },
+    "L4_transport": {
+      "description": "Reliable byte transfer, connection state, retry logic, framing",
+      "nodes": []
+    },
+    "L5_session": {
+      "description": "Session lifecycle, checkpointing, dispatcher, coordinator",
+      "nodes": []
+    },
+    "L6_presentation": {
+      "description": "Serialization, streaming codecs, compression, content negotiation",
+      "nodes": []
+    },
+    "L7_protocols": {
+      "description": "Protocol-specific framing, headers, error mapping, negotiation",
+      "nodes": []
+    }
+  },
+  "cross_cutting_domains": {
+    "security": {
+      "description": "TLS/mTLS, encryption, authentication",
+      "nodes": []
+    },
+    "observability": {
+      "description": "Metrics, logging, tracing, monitoring",
+      "nodes": []
+    },
+    "testing": {
+      "description": "Unit tests, integration tests, test infrastructure",
+      "nodes": []
+    },
+    "devops": {
+      "description": "Docker, CI/CD, configuration, deployment",
+      "nodes": []
+    },
+    "wiring_di": {
+      "description": "Composition root, dependency injection, factory pattern",
+      "nodes": []
+    },
+    "gateway_sdk": {
+      "description": "Edge adapters, remote gateways, client SDKs",
+      "nodes": []
+    }
+  },
+  "layer_statistics": {
+    "L3_network": {
+      "total": 0,
+      "by_severity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "L4_transport": {
+      "total": 0,
+      "by_severity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "L5_session": {
+      "total": 0,
+      "by_severity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "L6_presentation": {
+      "total": 0,
+      "by_severity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    "L7_protocols": {
+      "total": 0,
+      "by_severity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    }
+  }
+}

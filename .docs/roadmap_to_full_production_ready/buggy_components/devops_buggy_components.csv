@@ -1,2 +1,2 @@
-id,domain,component,file_path,line_number,bug_type,severity,description,proposed_fix
-DEV-009,devops,main.py,D:\Agent_Skills\GitNexus\gitnexus\docs\File_System_Layered_Graph\agents\actor_infra_structure\actor_as_a_service\multi-protocol_communication_fabric\src\main.py,23,Logic,critical,AppRunner.run() called at line 23 but AppRunner is not imported — causes NameError at startup preventing the entire service from starting,Add "from wiring.runner import AppRunner" to the imports at the top of main.py
+id,domain,component,file_path,line_number,bug_type,severity,description,proposed_fix,element_number
+DEV-009,devops,main.py,main.py,23,Logic,critical,AppRunner.run() called at line 23 but AppRunner is not imported — causes NameError at startup preventing the entire service from starting,Add "from wiring.runner import AppRunner" to the imports at the top of main.py,0.0.1.f
