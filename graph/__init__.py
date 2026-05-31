@@ -2,6 +2,9 @@ import json
 from pathlib import Path
 
 from .parsers import parse_all_csvs, scan_modules
+from .parsers.structural_parser import parse_structural_taxonomy
+from .parsers.concerns_parser import parse_all_domain_gaps, link_concerns_to_structural
+from .parsers.tasks_parser import create_implementation_tasks, parse_all_buggy_components
 
 HERE = Path(__file__).resolve().parent
 PROJECT_ROOT = HERE.parent
@@ -384,10 +387,70 @@ class Graph:
                         "id": elem_num,
                         "name": row["element_name"],
                         "parent": parent_id,
-                        "path": row["full_path"]
+                        "path": row["full_path"],
+                        "classification": row.get("classification", "Exists"),
+                        "development_state": row.get("development_state", "production-grade"),
+                        "architectural_state": row.get("architectural_state", "current"),
+                        "required_concerns": row.get("required_concerns", "")
                     })
 
         return domains, subdomains, files
+
+    def load_cross_cutting_concerns(self, roadmap_dir=None):
+        """Load concerns from domain_gaps CSVs for cross-cutting graph."""
+        import csv
+        from pathlib import Path
+
+        roadmap = Path(roadmap_dir or DOCS_DIR)
+        concerns = []
+        domain_gaps_dir = roadmap / "domain_gaps"
+
+        if domain_gaps_dir.exists():
+            for csv_file in sorted(domain_gaps_dir.glob("*.csv")):
+                with open(csv_file, "r", encoding="utf-8-sig") as f:
+                    reader = csv.DictReader(f)
+                    for row in reader:
+                        concern = {
+                            "id": row["id"],
+                            "node_type": "concern",
+                            "domain": row["domain"],  # security, observability, testing, etc.
+                            "category": row.get("category", ""),
+                            "title": row.get("title", ""),
+                            "description": row.get("description", ""),
+                            "severity": row.get("severity", ""),
+                            "status": row.get("status", ""),
+                            "impact": row.get("impact", ""),
+                            "dependencies": row.get("dependencies", ""),
+                            "effort_estimate": row.get("effort_estimate", ""),
+                            "proposed_solution": row.get("proposed_solution", ""),
+                            "evidence": row.get("evidence", ""),
+                            "notes": row.get("notes", "")
+                        }
+                        concerns.append(concern)
+
+        return concerns
+
+    def register_concern_targets(self):
+        """Link concerns to structural nodes via required_concerns attribute."""
+        from .parsers.concerns_parser import link_concerns_to_structural
+        
+        self.taxonomy_nodes = getattr(self, 'taxonomy_nodes', {})
+        
+        # Build concerns list from taxonomy_nodes (already loaded as concern nodes)
+        concerns = [
+            node for node in self.taxonomy_nodes.values() 
+            if node.get("node_type") == "concern"
+        ]
+        
+        # Use the parser to create affects relationships
+        affects_edges = link_concerns_to_structural(concerns, self.taxonomy_nodes)
+        
+        # Add edges to taxonomy_edges
+        for concern_id, structural_ids in affects_edges.items():
+            for sid in structural_ids:
+                self._add_taxonomy_edge(concern_id, sid)
+        
+        return self
 
     def build_folder_taxonomy(self, roadmap_dir=None):
         """Build hierarchical graph from CSV taxonomy data with depth_chain and ancestors_chain."""
@@ -452,20 +515,50 @@ class Graph:
         
         for file_node in files:
             self.taxonomy_nodes = getattr(self, 'taxonomy_nodes', {})
+            # Differentiate file vs file_stub based on classification
+            node_type = "file_stub" if file_node.get("classification") == "To_Be_Implemented" else "file"
             self.taxonomy_nodes[file_node["id"]] = {
                 "id": file_node["id"],
                 "name": file_node["name"],
                 "parent": file_node["parent"],
                 "depth": 3,
-                "node_type": "file",
+                "node_type": node_type,
                 "path": file_node["path"],
+                "classification": file_node.get("classification", "Exists"),
+                "development_state": file_node.get("development_state", "production-grade"),
+                "architectural_state": file_node.get("architectural_state", "current"),
+                "required_concerns": file_node.get("required_concerns", ""),
                 "depth_chain": get_depth_chain(file_node["id"], "file"),
                 "ancestors_chain": get_ancestors_chain(file_node["id"]),
                 "depends_on": [],      # Files this file imports/depends on
                 "depended_by": []       # Files that import/depend on this file
             }
             self._add_taxonomy_edge(file_node["parent"], file_node["id"])
-        
+
+        # Add cross-cutting concern nodes
+        for concern in self.load_cross_cutting_concerns():
+            self.taxonomy_nodes = getattr(self, 'taxonomy_nodes', {})
+            self.taxonomy_nodes[concern["id"]] = {
+                "id": concern["id"],
+                "node_type": "concern",
+                "domain": concern["domain"],
+                "category": concern["category"],
+                "title": concern["title"],
+                "description": concern["description"],
+                "severity": concern["severity"],
+                "status": concern["status"],
+                "impact": concern["impact"],
+                "dependencies": concern["dependencies"],
+                "effort_estimate": concern["effort_estimate"],
+                "proposed_solution": concern["proposed_solution"],
+                "evidence": concern["evidence"],
+                "notes": concern["notes"],
+                "depth": 1,  # Concerns at root level
+                "parent": None,
+                "depth_chain": [concern["id"]],
+                "ancestors_chain": [concern["id"]]
+            }
+
         return self
     
     def _add_taxonomy_edge(self, from_id, to_id):
@@ -498,28 +591,30 @@ class Graph:
         """Save the taxonomy structure as JSON with dependency info."""
         self.taxonomy_nodes = getattr(self, 'taxonomy_nodes', {})
         self.taxonomy_edges = getattr(self, 'taxonomy_edges', {})
-        
+
         domains = [n for n in self.taxonomy_nodes.values() if n["node_type"] == "folder_domain"]
         subdomains = [n for n in self.taxonomy_nodes.values() if n["node_type"] == "folder_subdomain"]
-        files = [n for n in self.taxonomy_nodes.values() if n["node_type"] == "file"]
-        
+        files = [n for n in self.taxonomy_nodes.values() if n["node_type"] in ("file", "file_stub")]
+        concerns = [n for n in self.taxonomy_nodes.values() if n["node_type"] == "concern"]
+
         data = {
             "domains": domains,
             "subdomains": subdomains,
             "files": files,
+            "concerns": concerns,
             "total_nodes": len(self.taxonomy_nodes),
             "total_edges": sum(len(v) for v in self.taxonomy_edges.values()),
             "dependency_edges": {
-                k: list(v) for k, v in self.taxonomy_edges.items() 
+                k: list(v) for k, v in self.taxonomy_edges.items()
                 if k is not None and any(v)
             }
         }
-        
+
         filepath = Path(path)
         if not filepath.is_absolute():
             filepath = PROJECT_ROOT / filepath
         filepath.parent.mkdir(parents=True, exist_ok=True)
-        
+
         with open(filepath, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         return str(filepath)
@@ -556,11 +651,11 @@ class Graph:
         return self
     
     def get_files_by_domain(self, domain_id):
-        """Get all files within a specific domain."""
+        """Get all files within a specific domain (including stubs)."""
         self.taxonomy_nodes = getattr(self, 'taxonomy_nodes', {})
         return [
             node for node in self.taxonomy_nodes.values()
-            if node["node_type"] == "file" and node["ancestors_chain"][-1].startswith(domain_id)
+            if node["node_type"] in ("file", "file_stub") and node["ancestors_chain"][-1].startswith(domain_id)
         ]
     
     def analyze_domain_dependencies(self, domain_id):
@@ -614,46 +709,47 @@ class Graph:
                     "target_path": self.taxonomy_nodes[dep_id]["path"] if dep_id in self.taxonomy_nodes else None
                 }
                 self.dependency_registry.append(relationship)
-        
+
         return self
-    
+
     def build_mermaid_folder_taxonomy(self):
         """Generate Mermaid diagram from folder taxonomy structure."""
         self.taxonomy_nodes = getattr(self, 'taxonomy_nodes', {})
         self.taxonomy_edges = getattr(self, 'taxonomy_edges', {})
-        
+
         lines = ["graph TD"]
-        
+
         # Group by depth level
-        domains = sorted([n for n in self.taxonomy_nodes.values() if n["node_type"] == "folder_domain"], 
+        domains = sorted([n for n in self.taxonomy_nodes.values() if n["node_type"] == "folder_domain"],
                          key=lambda x: x["id"])
-        subdomains = sorted([n for n in self.taxonomy_nodes.values() if n["node_type"] == "folder_subdomain"], 
-                           key=lambda x: x["id"])
-        files = sorted([n for n in self.taxonomy_nodes.values() if n["node_type"] == "file"], 
+        subdomains = sorted([n for n in self.taxonomy_nodes.values() if n["node_type"] == "folder_subdomain"],
+                          key=lambda x: x["id"])
+        files = sorted([n for n in self.taxonomy_nodes.values() if n["node_type"] in ("file", "file_stub")],
                       key=lambda x: x["id"])
-        
+
         # Create subgraph for each domain folder
         for domain in domains:
             domain_id = domain["id"]
             domain_name = domain["name"]
             safe_id = domain_id.replace(".", "_")
-            
+
             lines.append(f"    subgraph {safe_id} [\"{domain_name}\"]")
-            
+
             # Add subdomain nodes
             domain_subs = [s for s in subdomains if s["parent"] == domain_id]
             for sub in domain_subs:
                 sub_id = sub["id"].replace(".", "_")
                 lines.append(f'        {sub_id}["{sub["name"]}"]')
-            
+
             # Add file nodes in this domain (files directly under domain)
             domain_files = [f for f in files if f["parent"] == domain_id]
             for file_node in domain_files:
                 file_id = file_node["id"].replace(".", "_")
-                lines.append(f'        {file_id}["{file_node["name"]}"]')
-            
+                icon = "file" if file_node["node_type"] == "file" else "stub"
+                lines.append(f'        {file_id}["{icon}: {file_node["name"]}"]')
+
             lines.append("    end")
-        
+
         # Add edges: parent -> child
         for parent_id, children in self.taxonomy_edges.items():
             if parent_id is None:
@@ -662,7 +758,7 @@ class Graph:
             for child_id in sorted(children):
                 safe_child = child_id.replace(".", "_")
                 lines.append(f"    {safe_parent} --> {safe_child}")
-        
+
         return "\n".join(lines)
 
     def build_mermaid_taxonomy(self):

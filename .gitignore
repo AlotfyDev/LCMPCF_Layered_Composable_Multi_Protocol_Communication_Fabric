@@ -36,3 +36,12 @@ Thumbs.db
 *.log
 *.pid
 *.sqlite
+
+# Agent configuration directories
+.kilocode/
+.kilo/
+.cline/
+.cocoindex_code/
+
+# Project directories
+/kilo-marketplace/
